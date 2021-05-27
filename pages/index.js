@@ -21,9 +21,10 @@ export default function Home() {
 
       <div className="bg-gray-50">
         <Banner />
+        <Header />
 
         <div className="max-w-7xl mx-auto space-y-4 bg-white">
-          <Header />
+
           <MainHero />
           <InfoCTA />
           <GenderTreatments />

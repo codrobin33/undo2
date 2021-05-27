@@ -20,12 +20,15 @@ export default function RadioFrequency() {
                 <Banner />
                 <Header />
 
-                <ImageHeader />
+                <div className="max-w-7xl mx-auto space-y-4 bg-white">
 
-                <RadioFrequencyComponent />
+                    <ImageHeader />
 
-                <Footer />
+                    <RadioFrequencyComponent />
 
+                    <Footer />
+
+                </div>
             </div>
         </div>
     )

@@ -20,12 +20,15 @@ export default function MedSpa() {
             <div className="bg-gray-50">
                 <Banner />
                 <Header />
-                <MainHero />
-                <InfoCTA />
-                <GenderTreatments />
 
-                <Footer />
+                <div className="max-w-7xl mx-auto space-y-4 bg-white">
+                    <MainHero />
+                    <InfoCTA />
+                    <GenderTreatments />
 
+                    <Footer />
+
+                </div>
             </div>
         </div>
     )
