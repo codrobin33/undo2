@@ -1,43 +1,43 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/react/outline'
+import { FireIcon, LightBulbIcon, SparklesIcon } from '@heroicons/react/outline'
 
-const transferFeatures = [
+const for_her = [
     {
         id: 1,
-        name: 'Competitive exchange rates',
+        name: 'Skin Rejuvenation',
         description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: GlobeAltIcon,
+            'Photofractional™ is a complete skin rejuvenation solution that addresses even the earliest signs of aging. It offers noticeable results for pigmentation, age/sun spots, texture, and overall skin appearance.',
+        icon: SparklesIcon,
     },
     {
         id: 2,
-        name: 'No hidden fees',
+        name: 'Sun Spots / Uneven Tones',
         description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: ScaleIcon,
+            'This treatment is a complete skin rejuvenation solution. Out technology delivers remarkable results on a range of skin aging concerns such as age and sun spots, vascular lesions, uneven texture and skin tone.',
+        icon: FireIcon,
     },
     {
         id: 3,
-        name: 'Transfers are instant',
+        name: 'Hair Removal',
         description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: LightningBoltIcon,
+            'Safe, non-invasive treatment that permanently reduces hair growth, resulting in smooth, beautiful skin. Our unique IPL (Intense Pulsed Light) technology targets the hair follicles, and impairs their ability to grow hair.',
+        icon: LightBulbIcon,
     },
 ]
-const communicationFeatures = [
+const for_him = [
     {
         id: 1,
-        name: 'Mobile notifications',
+        name: 'Skin Rejuvenation',
         description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: AnnotationIcon,
+            'This fractional, non-ablative skin rejuvenation treatment stimulates the production of new collagen and elastic fibers in the deeper layers of the skin.',
+        icon: SparklesIcon,
     },
     {
         id: 2,
-        name: 'Reminder emails',
+        name: 'Hair Removal',
         description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: MailIcon,
+            'Safe, non-invasive treatment that permanently reduces hair growth, resulting in smooth, beautiful skin. Our unique IPL (Intense Pulsed Light) technology targets the hair follicles, and impairs their ability to grow hair.',
+        icon: LightBulbIcon,
     },
 ]
 
@@ -87,7 +87,7 @@ const GenderTreatments = () => {
                         </p>
 
                         <dl className="mt-10 space-y-10">
-                            {transferFeatures.map((item) => (
+                            {for_her.map((item) => (
                                 <div key={item.id} className="relative">
                                     <dt>
                                         <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
@@ -164,7 +164,7 @@ const GenderTreatments = () => {
                             </p>
 
                             <dl className="mt-10 space-y-10">
-                                {communicationFeatures.map((item) => (
+                                {for_him.map((item) => (
                                     <div key={item.id} className="relative">
                                         <dt>
                                             <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
