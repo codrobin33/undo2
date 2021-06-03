@@ -6,7 +6,8 @@ import TimelyBookButton from "./TimelyBookButton";
 const HEADLINES = [
     'Aesthetic Treatments',
     'Tattoo Removal',
-    'Acne Treatments'
+    'Acne Treatments',
+    'RF Body Contouring'
 ];
 
 const MainHero = () => {

@@ -3,12 +3,12 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
     BookmarkAltIcon,
+    BookOpenIcon,
     CalendarIcon,
     ChartBarIcon,
     CursorClickIcon,
+    LibraryIcon,
     MenuIcon,
-    PhoneIcon,
-    PlayIcon,
     RefreshIcon,
     ShieldCheckIcon,
     SupportIcon,
@@ -20,31 +20,24 @@ import TimelyBookButton from './TimelyBookButton'
 
 const tattoos = [
     {
-        name: 'Analytics',
-        description: 'Get a better understanding of where your traffic is coming from.',
+        name: 'How it works',
+        description: 'Get a better understanding of how the tatto removal process works.',
         href: '#',
         icon: ChartBarIcon,
     },
     {
-        name: 'Engagement',
-        description: 'Speak directly to your customers in a more meaningful way.',
+        name: 'Before / After',
+        description: 'See some examples of the tattoo removal process',
         href: '#',
         icon: CursorClickIcon,
     },
-    { name: 'Security', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
     {
-        name: 'Integrations',
+        name: 'Pricing',
         description: "Connect with third-party tools that you're already using.",
         href: '#',
         icon: ViewGridIcon,
-    },
-    {
-        name: 'Automations',
-        description: 'Build strategic funnels that will drive your customers to convert',
-        href: '#',
-        icon: RefreshIcon,
-    },
-]
+    }
+];
 
 const acnes = [
     {
@@ -75,8 +68,8 @@ const acnes = [
 ]
 
 const callsToAction = [
-    { name: 'Watch Demo', href: '#', icon: PlayIcon },
-    { name: 'Contact Sales', href: '#', icon: PhoneIcon },
+    { name: 'Book now', href: '/book', icon: CalendarIcon },
+    { name: 'Learn more', href: '/services', icon: BookOpenIcon },
 ]
 const med_spas = [
     {
@@ -254,28 +247,6 @@ export default function Header() {
                                                                     </div>
                                                                 </a>
                                                             ))}
-                                                        </div>
-                                                        <div className="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
-                                                            <div>
-                                                                <h3 className="text-sm tracking-wide font-medium text-gray-500 uppercase">
-                                                                    Recent Posts
-                                                                </h3>
-                                                                <ul className="mt-4 space-y-4">
-                                                                    {recentPosts.map((post) => (
-                                                                        <li key={post.id} className="text-base truncate">
-                                                                            <a href={post.href} className="font-medium text-gray-900 hover:text-gray-700">
-                                                                                {post.name}
-                                                                            </a>
-                                                                        </li>
-                                                                    ))}
-                                                                </ul>
-                                                            </div>
-                                                            <div className="mt-5 text-sm">
-                                                                <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                                                                    {' '}
-                                                                    View all posts <span aria-hidden="true">&rarr;</span>
-                                                                </a>
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </Popover.Panel>

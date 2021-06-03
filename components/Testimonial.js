@@ -53,7 +53,7 @@ const Testimonial = () => {
                     <div className="hidden lg:block lg:flex-shrink-0">
                         <img
                             className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                            src="img/cass.jpg"
                             alt=""
                         />
                     </div>
@@ -74,8 +74,10 @@ const Testimonial = () => {
                         <blockquote className="relative">
                             <div className="text-2xl leading-9 font-medium text-gray-900">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
-                                    molestiae. Numquam corrupti in laborum sed rerum et corporis.
+                                    This is what RELAXED looks like, friends. I just had my massage at Undo, Skincare Center and I feel fantastic.
+                                    I wasn't entirely ready to get back to the kids but I was definitely more prepared for the up and down that
+                                    comes with having a baby on the move. ❤️
+                                    I can't wait to get back next month - it's already booked.
                                 </p>
                             </div>
                             <footer className="mt-8">
@@ -83,13 +85,12 @@ const Testimonial = () => {
                                     <div className="flex-shrink-0 lg:hidden">
                                         <img
                                             className="h-12 w-12 rounded-full"
-                                            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                            src="img/cass.jpg"
                                             alt=""
                                         />
                                     </div>
                                     <div className="ml-4 lg:ml-0">
-                                        <div className="text-base font-medium text-gray-900">Judith Black</div>
-                                        <div className="text-base font-medium text-indigo-600">CEO, Tuple</div>
+                                        <div className="text-base font-medium text-gray-900">Cassandra Robinson</div>
                                     </div>
                                 </div>
                             </footer>
