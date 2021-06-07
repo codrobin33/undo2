@@ -1,3 +1,4 @@
+import TimelyBookButton from "./TimelyBookButton";
 
 const RadioFrequencyCTA = () => {
     return (
@@ -73,12 +74,13 @@ const RadioFrequencyCTA = () => {
                                 This is a non-invasive technique that uses heat and RF energy to shape your body by getting rid of undesirable fat
                                 cells. The technology also smooths your skin where cellulite or sagging may exist.
                             </p>
-                            <a
-                                className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-50 sm:inline-block sm:w-auto"
-                                href="/radiofrequency"
-                            >
-                                Learn more
-                            </a>
+                            <div className="mt-8 flex justify-start">
+                                <div className="inline-flex rounded-md shadow">
+                                    <TimelyBookButton reversed>
+                                        Learn more
+                                    </TimelyBookButton>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

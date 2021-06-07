@@ -8,7 +8,9 @@ import Header from '../components/Header';
 import Imports from '../components/Imports';
 import InfoCTA from '../components/InfoCTA';
 import MainHero from '../components/MainHero';
+import MiniCTA from '../components/MiniCTA';
 import RadioFrequencyCTA from '../components/RadioFrequencyCTA';
+import ServicesShortList from '../components/ServicesList';
 import Testimonial from '../components/Testimonial';
 
 export default function Home() {
@@ -25,6 +27,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto space-y-4 bg-white">
 
           <MainHero />
+          <MiniCTA />
+          <ServicesShortList />
           <InfoCTA />
           <GenderTreatments />
           <RadioFrequencyCTA />

@@ -1,6 +1,10 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
-const TimelyBookButton = ({ size = 'base', ...props }) => {
+function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+}
+
+const TimelyBookButton = ({ size = 'base', reversed = false, ...props }) => {
 
     const [_timely, setTimely] = useState(null);
 
@@ -30,7 +34,11 @@ const TimelyBookButton = ({ size = 'base', ...props }) => {
     return (
         <div className={props.container || ''}>
             <a
-                className={`w-full flex items-center justify-center ${cssSize} border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700  cursor-pointer timely`}
+                className={classNames(
+                    `w-full flex items-center justify-center ${cssSize} border border-transparent text-base font-medium rounded-md   cursor-pointer timely`,
+                    (!reversed) && 'text-white bg-indigo-600 hover:bg-indigo-700',
+                    (reversed) && 'text-indigo-600 bg-white hover:bg-gray-50'
+                )}
                 {...props}
                 onClick={event}>
                 Book now

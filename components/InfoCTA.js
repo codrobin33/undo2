@@ -1,3 +1,5 @@
+import TimelyBookButton from "./TimelyBookButton";
+
 /* This example requires Tailwind CSS v2.0+ */
 const InfoCTA = () => {
     return (
@@ -13,12 +15,13 @@ const InfoCTA = () => {
                     fully understand your objective, introduce an array of innovative treatments
                     and products to get the results you want and deserve.
                 </p>
-                <a
-                    href="#"
-                    className="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50 sm:w-auto"
-                >
-                    Book now
-                </a>
+                <div className="mt-8 flex justify-center">
+                    <div className="inline-flex rounded-md shadow">
+                        <TimelyBookButton reversed>
+                            Book now
+                        </TimelyBookButton>
+                    </div>
+                </div>
             </div>
         </div>
     )
