@@ -5,18 +5,44 @@ const features = [
     {
         name: 'Invite team members',
         description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+        href: '/'
     },
-    { name: 'List view', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
+    {
+        name: 'List view',
+        description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+        href: '/'
+    },
     {
         name: 'Keyboard shortcuts',
         description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+        href: '/'
     },
-    { name: 'Calendars', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
-    { name: 'Notifications', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-    { name: 'Boards', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-    { name: 'Reporting', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-    { name: 'Mobile app', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-]
+    {
+        name: 'Calendars',
+        description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+        href: '/'
+    },
+    {
+        name: 'Notifications',
+        description: 'Find what you need with advanced filters, bulk actions, and quick views.',
+        href: '/'
+    },
+    {
+        name: 'Boards',
+        description: 'Find what you need with advanced filters, bulk actions, and quick views.',
+        href: '/'
+    },
+    {
+        name: 'Reporting',
+        description: 'Find what you need with advanced filters, bulk actions, and quick views.',
+        href: '/'
+    },
+    {
+        name: 'Mobile app',
+        description: 'Find what you need with advanced filters, bulk actions, and quick views.',
+        href: '/'
+    }
+];
 
 const ServicesShortList = () => {
     return (
@@ -35,7 +61,7 @@ const ServicesShortList = () => {
                         {features.map((feature) => (
                             <div key={feature.name} className="relative">
                                 <dt>
-                                    <a href="#" className="cursor-pointer  hover:underline">
+                                    <a href={feature.href} className="cursor-pointer  hover:underline">
                                         <LinkIcon className="absolute h-6 w-6 text-indigo-600" aria-hidden="true" />
                                         <span className="ml-9 text-lg leading-6 font-medium text-gray-900">{feature.name}</span>
                                     </a>

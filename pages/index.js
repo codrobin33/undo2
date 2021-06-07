@@ -29,9 +29,9 @@ export default function Home() {
           <MainHero />
           <MiniCTA />
           <ServicesShortList />
-          <InfoCTA />
-          <GenderTreatments />
           <RadioFrequencyCTA />
+          <GenderTreatments />
+          <InfoCTA />
           <Testimonial />
           <Contact />
 
