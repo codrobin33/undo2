@@ -41,7 +41,7 @@ const TimelyBookButton = ({ size = 'base', reversed = false, ...props }) => {
                 )}
                 {...props}
                 onClick={event}>
-                Book now
+                Book&nbsp;now
             </a>
         </div>
     );

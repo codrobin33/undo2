@@ -6,6 +6,8 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Imports from '../components/Imports';
 import InfoCTA from '../components/InfoCTA';
+import ServicesHeader from '../components/ServicesHeader';
+import ServicesList from '../components/ServicesList';
 
 export default function Home() {
     return (
@@ -20,7 +22,8 @@ export default function Home() {
 
                 <div className="max-w-7xl mx-auto space-y-4 bg-white">
 
-                    List all services
+                    <ServicesHeader />
+                    <ServicesList />
                     <InfoCTA />
                     <Contact />
 

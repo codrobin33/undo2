@@ -3,42 +3,42 @@ import { LinkIcon } from '@heroicons/react/outline';
 
 const features = [
     {
-        name: 'Invite team members',
+        name: 'Body Sculpting',
         description: 'You can manage phone, email and chat conversations all from a single mailbox.',
         href: '/'
     },
     {
-        name: 'List view',
+        name: 'Skin Rejuventation Treatments',
         description: 'You can manage phone, email and chat conversations all from a single mailbox.',
         href: '/'
     },
     {
-        name: 'Keyboard shortcuts',
+        name: 'Skin Care Products',
         description: 'You can manage phone, email and chat conversations all from a single mailbox.',
         href: '/'
     },
     {
-        name: 'Calendars',
+        name: 'Tattoo Remvoal',
         description: 'You can manage phone, email and chat conversations all from a single mailbox.',
-        href: '/'
+        href: '/tattoo'
     },
     {
-        name: 'Notifications',
+        name: 'Equipment',
         description: 'Find what you need with advanced filters, bulk actions, and quick views.',
         href: '/'
     },
     {
-        name: 'Boards',
+        name: 'Aesthetic Treatments',
         description: 'Find what you need with advanced filters, bulk actions, and quick views.',
         href: '/'
     },
     {
-        name: 'Reporting',
+        name: 'Acne Treatments',
         description: 'Find what you need with advanced filters, bulk actions, and quick views.',
         href: '/'
     },
     {
-        name: 'Mobile app',
+        name: 'RF Body Contouring',
         description: 'Find what you need with advanced filters, bulk actions, and quick views.',
         href: '/'
     }

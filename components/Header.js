@@ -22,19 +22,19 @@ const tattoos = [
     {
         name: 'How it works',
         description: 'Get a better understanding of how the tatto removal process works.',
-        href: '#',
+        href: '/tattoo#',
         icon: ChartBarIcon,
     },
     {
         name: 'Before / After',
         description: 'See some examples of the tattoo removal process',
-        href: '#',
+        href: '/tattoo#',
         icon: CursorClickIcon,
     },
     {
         name: 'Pricing',
         description: "Connect with third-party tools that you're already using.",
-        href: '#',
+        href: '/tattoo#',
         icon: ViewGridIcon,
     }
 ];
@@ -125,7 +125,7 @@ export default function Header() {
                                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                                 </Popover.Button>
                             </div>
-                            <Popover.Group as="nav" className="hidden md:flex space-x-10">
+                            <Popover.Group as="nav" className="hidden md:flex space-x-6 lg:space-x-10">
                                 <a href="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
                                     Home
                                 </a>
@@ -208,7 +208,7 @@ export default function Header() {
                                                     'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
                                                 )}
                                             >
-                                                <span>Med Spa</span>
+                                                <span>Med&nbsp;Spa</span>
                                                 <ChevronDownIcon
                                                     className={classNames(
                                                         open ? 'text-gray-600' : 'text-gray-400',
@@ -324,7 +324,7 @@ export default function Header() {
                                 </Popover>
 
                                 <a href="#contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
-                                    Contact us
+                                    Contact&nbsp;us
                                 </a>
                             </Popover.Group>
                             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">

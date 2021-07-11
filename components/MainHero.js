@@ -4,8 +4,11 @@ import { Transition } from "@headlessui/react";
 import TimelyBookButton from "./TimelyBookButton";
 
 const HEADLINES = [
-    'Aesthetic Treatments',
+    'Body Sculpting',
+    'Skin Rejuventation',
+    'Skin Care Products',
     'Tattoo Removal',
+    'Aesthetic Treatments',
     'Acne Treatments',
     'RF Body Contouring'
 ];
