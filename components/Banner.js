@@ -8,8 +8,8 @@ const Banner = () => (
         <div className="w-full py-2 px-3 sm:px-6 lg:px-8">
             <div className="flex flex-row-reverse font-medium text-white">
                 <a href="https://www.facebook.com/undotoday" className="flex items-center justify-center ml-2">
-                    <FontAwesomeIcon icon={faFacebook} className="w-5 h-5" />
-                    <div className="ml-2 hidden sm:block">Facebook</div>
+                    <FontAwesomeIcon icon={faFacebook} className="w-5 h-5 mr-1" />
+                    <div className="hidden sm:block">Facebook</div>
                 </a>
                 <a href="mailto:info@undo.today" className="flex items-center justify-center ml-2">
                     <MailIcon className="w-4 h-4 mr-1" />

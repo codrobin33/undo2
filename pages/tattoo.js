@@ -7,6 +7,7 @@ import Header from '../components/Header';
 import Imports from '../components/Imports';
 import InfoCTA from '../components/InfoCTA';
 import MainHero from '../components/MainHero';
+import TattooHeader from '../components/TattooHeader';
 
 export default function Tattoo() {
     return (
@@ -20,10 +21,9 @@ export default function Tattoo() {
                 <Header />
 
                 <div className="max-w-7xl mx-auto space-y-4 bg-white">
-                    <MainHero />
-                    <InfoCTA />
-                    <GenderTreatments />
+                    <TattooHeader />
 
+                    <InfoCTA />
                     <Footer />
 
                 </div>
