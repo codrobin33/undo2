@@ -25,9 +25,9 @@ export default function Tattoo() {
                 <div className="max-w-7xl mx-auto space-y-4 bg-white">
 
                     <MainHero />
-                    <VideoHero />
-                    <CommonReasonsTattooRemoval />
                     <TattooImageCTA />
+                    <CommonReasonsTattooRemoval />
+                    <VideoHero />
                     <TattooDeviceInfo />
                     <TattooCTA />
 
