@@ -1,13 +1,14 @@
 import Head from 'next/head';
 
 import Banner from '../components/Banner';
+import CommonReasonsTattooRemoval from '../components/CommonReasonsTattooRemoval';
 import Footer from '../components/Footer';
-import GenderTreatments from '../components/GenderTreatments';
 import Header from '../components/Header';
 import Imports from '../components/Imports';
-import InfoCTA from '../components/InfoCTA';
-import MainHero from '../components/MainHero';
-import TattooHeader from '../components/TattooHeader';
+import TattooCTA from '../components/TattooCTA';
+import TattooDeviceInfo from '../components/TattooDeviceInfo';
+import TattooImageCTA from '../components/TattooImageCTA';
+import VideoHero from '../components/VideoHero';
 
 export default function Tattoo() {
     return (
@@ -21,9 +22,13 @@ export default function Tattoo() {
                 <Header />
 
                 <div className="max-w-7xl mx-auto space-y-4 bg-white">
-                    <TattooHeader />
 
-                    <InfoCTA />
+                    <TattooCTA />
+                    <VideoHero />
+                    <CommonReasonsTattooRemoval />
+                    <TattooImageCTA />
+                    <TattooDeviceInfo />
+
                     <Footer />
 
                 </div>
