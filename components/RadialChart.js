@@ -5,7 +5,7 @@ const RadialChart = ({ radius = 60,
     progress = 0,
     strokeWidth = 15,
     dimension = 180,
-    color = '#4338CA'
+    color = '#6B7280'
 }) => {
     const [strokeLength, setStrokeLength] = useState(0);
     const [targetRef, visible] = useVisible()

@@ -9,6 +9,7 @@ import TattooCTA from '../components/TattooCTA';
 import TattooDeviceInfo from '../components/TattooDeviceInfo';
 import TattooImageCTA from '../components/TattooImageCTA';
 import VideoHero from '../components/VideoHero';
+import MainHero from '../components/MainHero';
 
 export default function Tattoo() {
     return (
@@ -23,11 +24,12 @@ export default function Tattoo() {
 
                 <div className="max-w-7xl mx-auto space-y-4 bg-white">
 
-                    <TattooCTA />
+                    <MainHero />
                     <VideoHero />
                     <CommonReasonsTattooRemoval />
                     <TattooImageCTA />
                     <TattooDeviceInfo />
+                    <TattooCTA />
 
                     <Footer />
 
