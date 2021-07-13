@@ -1,7 +1,7 @@
 
 const TattooDeviceInfo = () => {
     return (
-        <div className="relative py-16 bg-white overflow-hidden">
+        <div className="relative py-16 bg-white overflow-hidden" id="how-it-works">
             <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
                 <div className="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
                     <svg
@@ -73,73 +73,77 @@ const TattooDeviceInfo = () => {
                 <div className="text-lg max-w-prose mx-auto">
                     <h1>
                         <span className="block text-base text-center text-indigo-700 font-semibold tracking-wide uppercase">
-                            Introducing
+                            meet the technology
                         </span>
                         <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                            JavaScript for Beginners
+                            How it works
                         </span>
                     </h1>
                     <p className="mt-8 text-xl text-gray-500 leading-8">
-                        Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-                        aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-                        egestas fringilla sapien.
+                        Pulses of high-intensity laser light remove your tattoo by breaking up the tattoo ink into extremely small particles.
+                        Your immune system’s white blood cells fight off the ink particles, and are naturally carried out of the body, resulting
+                        in a tattoo that is lighter in color or completely removed. Recent advancements in technology introduced new laser
+                        devices that can safely remove tattoos efficiently regardless of skin color or skin type.
                     </p>
                 </div>
                 <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-                    <p>
-                        Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>.
-                        Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra
-                        tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.{' '}
-                        <a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.
-                    </p>
-                    <ul>
-                        <li>Quis elit egestas venenatis mattis dignissim.</li>
-                        <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                        <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-                    </ul>
-                    <p>
-                        Quis semper vulputate aliquam venenatis egestas sagittis quisque orci. Donec commodo sit viverra aliquam
-                        porttitor ultrices gravida eu. Tincidunt leo, elementum mattis elementum ut nisl, justo, amet, mattis. Nunc
-                        purus, diam commodo tincidunt turpis. Amet, duis sed elit interdum dignissim.
-                    </p>
-                    <h2>From beginner to expert in 30 days</h2>
-                    <p>
-                        Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                        Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus
-                        mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
-                        ipsum eu a sed convallis diam.
-                    </p>
-                    <blockquote>
-                        <p>
-                            Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                            pellentesque. Blandit amet, sed aenean erat arcu morbi.
+                    <div className="w-full">
+                        <figure className="m-auto md:float-left w-1/3 md:mr-2">
+                            <img
+                                className="w-full rounded-lg"
+                                src="/img/piqo.jpg"
+                                alt=""
+                            />
+                        </figure>
+                        <h2>Meet the technology</h2>
+                        <p >
+                            At <strong>Undo, Skincare Center</strong>, we use the most advanced technology in the Midwest to make the tattoo process easy and painless!
+                            The Lumenis PiQo4 laser is the new gold standard for producing excellent laser tattoo removal outcomes. PiQo4 treats a wide
+                            range of pigment colors and its versatile energy matrix ensures effective shattering of pigment deposits. It also has the
+                            largest spot size on the market, which allows you to deliver <strong>faster treatments</strong>. The PiQo4 laser uses four true laser wavelengths,
+                            Q switching technology – PICO + NANO wavelengths in order to treat the broadest range of pigment/tattoo color, and the highest
+                            consistent laser beam power to effectively break up a wide range of colors, even difficult dark blues and greens. Utilizing
+                            the largest square beam, up to 15mm, the PiQo4 laser is able to distribute energy evenly throughout your tissue allowing for
+                            a more efficient breakup of ink particles while avoiding leaving hot spots.
                         </p>
-                    </blockquote>
+                    </div>
+
+                    <h2>Pico+Nano for doubly effective treatment</h2>
                     <p>
-                        Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-                        sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
+                        Clinical studies have shown that the optimal method for shattering pigment particles is to treat them with both Nano and Picosecond laser pulses.
                     </p>
                     <figure>
                         <img
                             className="w-full rounded-lg"
-                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
+                            src="/img/Rocks-To-Pebbles-To-Sand.png"
                             alt=""
-                            width={1310}
-                            height={873}
                         />
-                        <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
                     </figure>
-                    <h2>Everything you need to get up and running</h2>
                     <p>
-                        Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius orci dapibus
-                        volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus
-                        non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc,
-                        congue erat ac. Cras fermentum convallis quam.
+                        First, the Nanosecond pulses are used to deliver short bursts of energy that break down the larger and deeper pigment or ink particles.
+                        Then, the area is rescanned with Picosecond pulses that dismantle the smaller and shallower particles. This combination yields far better results
+                        than using either one of the technologies on its own.
                     </p>
-                    <p>
-                        Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-                        sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-                    </p>
+
+
+                    <div className="w-full">
+                        <figure className="m-auto md:float-right w-1/3 md:mr-2">
+                            <img
+                                className="w-full rounded-lg"
+                                src="/img/PiQo4-Wheel.png"
+                                alt=""
+                            />
+                        </figure>
+
+                        <h2>4 Wavelengths – For effective shattering of the most popular pigment/ink colors</h2>
+                        <p >
+                            Since each pigment color absorbs a specific wavelength, PiQo4 offers 4 wavelengths in order to treat the broadest range of pigment/tattoo
+                            colors, on the widest range of skin types. Its four wavelengths – 1064nm, 532nm, 650nm and 585nm – target 9 of the most frequently used
+                            tattoo colors ranging from light orange to dark black. With PiQo4 you can erase the rainbow.
+                        </p>
+
+                    </div>
+
                 </div>
             </div>
         </div>
