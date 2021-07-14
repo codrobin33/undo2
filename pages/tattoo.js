@@ -11,6 +11,7 @@ import TattooImageCTA from '../components/TattooImageCTA';
 import VideoHero from '../components/VideoHero';
 import MainHero from '../components/MainHero';
 import TattooPricing from '../components/TattooPricing';
+import Contact from '../components/Contact';
 
 export default function Tattoo() {
     return (
@@ -33,6 +34,7 @@ export default function Tattoo() {
                     <TattooCTA />
                     <TattooPricing />
 
+                    <Contact />
                     <Footer />
 
                 </div>
