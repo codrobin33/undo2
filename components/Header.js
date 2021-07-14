@@ -15,27 +15,33 @@ import {
     ViewGridIcon,
     XIcon,
 } from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+import { ChevronDownIcon, CogIcon, CurrencyDollarIcon, QuestionMarkCircleIcon } from '@heroicons/react/solid'
 import TimelyBookButton from './TimelyBookButton'
 
 const tattoos = [
     {
-        name: 'How it works',
-        description: 'Get a better understanding of how the tatto removal process works.',
-        href: '/tattoo#',
-        icon: ChartBarIcon,
+        name: 'Tattoo Removal',
+        description: 'Learn about how Undo can remove your unwanted ink.',
+        href: '/tattoo',
+        icon: CursorClickIcon
     },
     {
-        name: 'Before / After',
-        description: 'See some examples of the tattoo removal process',
-        href: '/tattoo#',
-        icon: CursorClickIcon,
+        name: 'How it works',
+        description: 'Get a better understanding of how the tatto removal process works.',
+        href: '/tattoo#how-it-works',
+        icon: CogIcon,
+    },
+    {
+        name: 'Reasons for removal',
+        description: 'Find out why people remove their tattoos',
+        href: '/tattoo#reasons',
+        icon: QuestionMarkCircleIcon,
     },
     {
         name: 'Pricing',
         description: "Connect with third-party tools that you're already using.",
-        href: '/tattoo#',
-        icon: ViewGridIcon,
+        href: '/tattoo#pricing',
+        icon: CurrencyDollarIcon,
     }
 ];
 
@@ -67,10 +73,6 @@ const acnes = [
     },
 ]
 
-const callsToAction = [
-    { name: 'Book now', href: '/book', icon: CalendarIcon },
-    { name: 'Learn more', href: '/services', icon: BookOpenIcon },
-]
 const med_spas = [
     {
         name: 'Help Center',
@@ -177,19 +179,6 @@ export default function Header() {
                                                                         <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                                                                     </div>
                                                                 </a>
-                                                            ))}
-                                                        </div>
-                                                        <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                                                            {callsToAction.map((item) => (
-                                                                <div key={item.name} className="flow-root">
-                                                                    <a
-                                                                        href={item.href}
-                                                                        className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
-                                                                    >
-                                                                        <item.icon className="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                                                                        <span className="ml-3">{item.name}</span>
-                                                                    </a>
-                                                                </div>
                                                             ))}
                                                         </div>
                                                     </div>
@@ -301,19 +290,6 @@ export default function Header() {
                                                                         <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                                                                     </div>
                                                                 </a>
-                                                            ))}
-                                                        </div>
-                                                        <div className="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                                                            {callsToAction.map((item) => (
-                                                                <div key={item.name} className="flow-root">
-                                                                    <a
-                                                                        href={item.href}
-                                                                        className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
-                                                                    >
-                                                                        <item.icon className="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                                                                        <span className="ml-3">{item.name}</span>
-                                                                    </a>
-                                                                </div>
                                                             ))}
                                                         </div>
                                                     </div>

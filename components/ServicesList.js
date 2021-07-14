@@ -35,12 +35,12 @@ const features = [
     {
         name: 'Acne Treatments',
         description: 'Find what you need with advanced filters, bulk actions, and quick views.',
-        href: '/'
+        href: '/acne'
     },
     {
         name: 'RF Body Contouring',
         description: 'Find what you need with advanced filters, bulk actions, and quick views.',
-        href: '/'
+        href: '/radiofrequency'
     }
 ];
 
