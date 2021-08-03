@@ -5,7 +5,7 @@ import TimelyBookButton from "./TimelyBookButton";
 
 const HEADLINES = [
     'Body Sculpting',
-    'Skin Rejuventation',
+    'Skin Rejuvenation',
     'Skin Care Products',
     'Tattoo Removal',
     'Aesthetic Treatments',

@@ -6,16 +6,14 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Imports from '../components/Imports';
 import InfoCTA from '../components/InfoCTA';
-import ServicesHeader from '../components/ServicesHeader';
-import ServicesList from '../components/ServicesList';
 
-export default function Home() {
+export default function SkinRejuvenationTreatments() {
     return (
         <div>
             <Head>
                 <Imports
-                    metaTitle="A breakdown of services and products offered"
-                    description="Our team is here to help you look and feel your best. Our team are experts here to provide a customized treatment plan to help you get there!"
+                    metaTitle="Skin Rejuvenation Treatments and Services"
+                    description="Treatments include: Skin tightening, Cellulite reduction, Acen Scars, Wrinkles, Collagen, Oxygeneo Hydrating, Botox, and many more!"
                 />
             </Head>
 
@@ -25,15 +23,16 @@ export default function Home() {
 
                 <div className="max-w-7xl mx-auto space-y-4 bg-white">
 
-                    <ServicesHeader />
-                    <ServicesList />
+
+
+
+
                     <InfoCTA />
                     <Contact />
-
                     <Footer />
 
                 </div>
             </div>
         </div>
-    )
+    );
 }

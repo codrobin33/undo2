@@ -12,7 +12,10 @@ export default function RadioFrequency() {
     return (
         <div>
             <Head>
-                <Imports />
+                <Imports
+                    metaTitle="How Does Radiofrequency Body Contouring Work?"
+                    description="This is a non-invasive technique that uses heat and RF energy to shape your body by getting rid of undesirable fat cells. The technology also smooths your skin where cellulite or sagging may exist."
+                />
             </Head>
 
             <div className="bg-gray-50">

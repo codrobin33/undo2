@@ -4,42 +4,42 @@ import { LinkIcon } from '@heroicons/react/outline';
 const features = [
     {
         name: 'Body Sculpting',
-        description: 'You can manage phone, email and chat conversations all from a single mailbox.',
-        href: '/'
+        description: 'This is a non-invasive technique that uses heat and RF energy to shape your body by getting rid of undesirable fat cells.',
+        href: '/radiofrequency'
     },
     {
-        name: 'Skin Rejuventation Treatments',
-        description: 'You can manage phone, email and chat conversations all from a single mailbox.',
-        href: '/'
+        name: 'Skin Rejuvenation Treatments',
+        description: 'Treatments include: Skin tightening, Cellulite reduction, Acen Scars, Wrinkles, Collagen, Oxygeneo Hydrating, Botox, and many more!',
+        href: '/skin_rejuvenation_treatments'
     },
     {
         name: 'Skin Care Products',
-        description: 'You can manage phone, email and chat conversations all from a single mailbox.',
-        href: '/'
+        description: 'We carry many product lines including EltaMD, Revision, Elixier and iS CLINICAL.',
+        href: '/skincare_products'
     },
     {
-        name: 'Tattoo Remvoal',
-        description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+        name: 'Tattoo Removals',
+        description: 'We can help with full tattoo removals or area lightening for that next tattoo!',
         href: '/tattoo'
     },
     {
         name: 'Equipment',
-        description: 'Find what you need with advanced filters, bulk actions, and quick views.',
+        description: 'We have all the latest tech for whatever you skincare need is. Find out how we are leading Kansas City Skincare technology scene.',
         href: '/'
     },
     {
         name: 'Aesthetic Treatments',
-        description: 'Find what you need with advanced filters, bulk actions, and quick views.',
+        description: 'Using non-invasive cosmetic procedures we can help you achieve all your wanted Skincare goals.',
         href: '/'
     },
     {
         name: 'Acne Treatments',
-        description: 'Find what you need with advanced filters, bulk actions, and quick views.',
+        description: 'The latest in non-ablative, fractional laser technology to improve skin discoloration, stretch marks, acne scars and wrinkles.',
         href: '/acne'
     },
     {
         name: 'RF Body Contouring',
-        description: 'Find what you need with advanced filters, bulk actions, and quick views.',
+        description: 'Radiofrequency body contouring tightens the skin, removes fat and improves tone without any downtime or pain at all.',
         href: '/radiofrequency'
     }
 ];
