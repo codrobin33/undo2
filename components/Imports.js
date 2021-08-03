@@ -1,8 +1,8 @@
 
 
 const Imports = ({
-  metaTitle = 'Undo, Skincare Center',
-  description = 'At Undo, Skincare Center, Tattoo Removal and Day Med Spa, we want you to look and feel your best. Our team are experts here to provide a customized treatment plan to help you get there!'
+  metaTitle = 'Undo, Skin care Center',
+  description = 'At Undo, Skin care Center, Tattoo Removal and Day Med Spa, we want you to look and feel your best. Our team are experts here to provide a customized treatment plan to help you get there!'
 }) => (
   <>
     <title>{metaTitle}</title>

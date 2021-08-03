@@ -24,12 +24,12 @@ const features = [
     },
     {
         name: 'Equipment',
-        description: 'We have all the latest tech for whatever you skincare need is. Find out how we are leading Kansas City Skincare technology scene.',
+        description: 'We have all the latest tech for whatever you skin care need is. Find out how we are leading Kansas City Skin care technology scene.',
         href: '/'
     },
     {
         name: 'Aesthetic Treatments',
-        description: 'Using non-invasive cosmetic procedures we can help you achieve all your wanted Skincare goals.',
+        description: 'Using non-invasive cosmetic procedures we can help you achieve all your wanted Skin care goals.',
         href: '/'
     },
     {
@@ -51,7 +51,7 @@ const ServicesShortList = () => {
                 <svg className="hidden lg:block absolute right-full transform translate-x-2/3 translate-y-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true"><defs><pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="4" height="4" className="text-gray-200" fill="currentColor"></rect></pattern></defs><rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"></rect></svg>
                 <div>
                     <h2 className="text-base font-semibold text-indigo-600 uppercase tracking-wide">Everything you need</h2>
-                    <p className="mt-2 text-3xl font-extrabold text-gray-900">For great Skincare</p>
+                    <p className="mt-2 text-3xl font-extrabold text-gray-900">For great Skin care</p>
                     <p className="mt-4 text-lg text-gray-500">
                         Our team is here to help you look and feel your best. Let us Undo those unwanted skin changes.
                     </p>

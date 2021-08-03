@@ -3,9 +3,9 @@ Todo -
 1. tattoo page - DONE
 2. services list descriptions - DONE
 3. independent pages for all the services - this will help with seo as well.
-    1. radiofrequency / Body Sculpting
+    1. radiofrequency / Body Sculpting - DONE
     2. skin rejuv treatments
-    3. skin care products
+    3. skin care products - DONE
     4. tattoo removal - DONE
     5. Equipment
     6. Aestehtic treatments

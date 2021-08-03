@@ -37,12 +37,12 @@ const Contact = () => {
                         <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Find us</h2>
                         <div className="mt-3">
                             <p className="text-lg text-gray-500">
-                                At Undo, Skincare Center, we use only the best and most advanced technology to make the tattoo removal process easy and painless.
+                                At Undo, Skin care Center, we use only the best and most advanced technology to make the tattoo removal process easy and painless.
                             </p>
                         </div>
                         <div className="mt-9">
                             <div>
-                                <h3 className="text-lg leading-6 font-medium text-gray-900">Undo, Skincare Center</h3>
+                                <h3 className="text-lg leading-6 font-medium text-gray-900">Undo, Skin care Center</h3>
                                 <div className="mt-2 text-base text-gray-500">
                                     <p>6442 NW Crooked Rd.</p>
                                     <p className="mt-1">Parkville, MO 64152</p>

@@ -97,7 +97,7 @@ const TattooDeviceInfo = () => {
                         </figure>
                         <h2>Meet the technology</h2>
                         <p >
-                            At <strong>Undo, Skincare Center</strong>, we use the most advanced technology in the Midwest to make the tattoo process easy and painless!
+                            At <strong>Undo, Skin care Center</strong>, we use the most advanced technology in the Midwest to make the tattoo process easy and painless!
                             The Lumenis PiQo4 laser is the new gold standard for producing excellent laser tattoo removal outcomes. PiQo4 treats a wide
                             range of pigment colors and its versatile energy matrix ensures effective shattering of pigment deposits. It also has the
                             largest spot size on the market, which allows you to deliver <strong>faster treatments</strong>. The PiQo4 laser uses four true laser wavelengths,

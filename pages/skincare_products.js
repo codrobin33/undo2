@@ -7,13 +7,15 @@ import Header from '../components/Header';
 import Imports from '../components/Imports';
 import InfoCTA from '../components/InfoCTA';
 import ProductLogoCloud from '../components/ProductLogoCloud';
+import ProductDescriptions from '../components/ProductDescriptions';
+import ProductHeader from '../components/ProductHeader';
 
 export default function SkinCareProducts() {
     return (
         <div>
             <Head>
                 <Imports
-                    metaTitle="Skincare Products"
+                    metaTitle="Skin care Products"
                     description="We carry many product lines including EltaMD, Revision, Elixir and iS CLINICAL."
                 />
             </Head>
@@ -24,9 +26,10 @@ export default function SkinCareProducts() {
 
                 <div className="max-w-7xl mx-auto space-y-4 bg-white">
 
+                    <ProductHeader />
+                    <ProductDescriptions />
+
                     <ProductLogoCloud />
-
-
 
                     <InfoCTA />
                     <Contact />
