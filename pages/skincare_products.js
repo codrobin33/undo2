@@ -15,7 +15,7 @@ export default function SkinCareProducts() {
         <div>
             <Head>
                 <Imports
-                    metaTitle="Skin care Products"
+                    metaTitle="Skincare Products"
                     description="We carry many product lines including EltaMD, Revision, Elixir and iS CLINICAL."
                 />
             </Head>

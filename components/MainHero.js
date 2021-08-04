@@ -6,7 +6,7 @@ import TimelyBookButton from "./TimelyBookButton";
 const HEADLINES = [
     'Body Sculpting',
     'Skin Rejuvenation',
-    'Skin Care Products',
+    'Skincare Products',
     'Tattoo Removal',
     'Aesthetic Treatments',
     'Acne Treatments',
@@ -55,7 +55,7 @@ const MainHero = () => {
                             ))}
                         </h1>
                         <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-                            At Undo, Skin care Center, Tattoo Removal and Day Med Spa, we want you to look and feel your best. Our team are experts here to provide a customized treatment plan to help you get there!
+                            At Undo, Skincare Center, Tattoo Removal and Day Med Spa, we want you to look and feel your best. Our team are experts here to provide a customized treatment plan to help you get there!
                         </p>
                         <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
                             <div className="rounded-md shadow">

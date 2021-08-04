@@ -61,7 +61,7 @@ const TattooPricing = () => {
                         <div className="prose prose-indigo prose-lg text-gray-500 lg:max-w-none">
                             <p className="mt-8 text-xl text-gray-500 leading-8">
                                 So you're ready to remove your tattoo, but you’re worried about the cost of treatments? Don’t turn down
-                                tattoo removal treatments because of the price! Undo Laser Skin care Clinic provides treatments designed
+                                tattoo removal treatments because of the price! Undo Laser Skincare Clinic provides treatments designed
                                 to fit anyone's budget!
                             </p>
 
@@ -79,7 +79,7 @@ const TattooPricing = () => {
 
                             <h3>Size:</h3>
                             <p>
-                                Size is the number one factor in determining how much it will cost to remove your tattoo. Undo, Laser Skin care
+                                Size is the number one factor in determining how much it will cost to remove your tattoo. Undo, Laser Skincare
                                 Center measures tattoos in compressed ink square inches, and we charge per square inch to remove a tattoo.
                             </p>
                             <h3>Location:</h3>

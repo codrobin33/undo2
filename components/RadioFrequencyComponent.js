@@ -82,7 +82,7 @@ const RadioFrequencyComponent = () => {
                     </h1>
                     <p className="mt-8 text-xl text-gray-500 leading-8">
                         As our bodies age, they may start to show more fat deposits despite regular diet and exercise. Our skin might sag
-                        and show more cellulite. At Undo, Skin care Center in Kansas City, Missouri, we can use radiofrequency (RF) body contouring
+                        and show more cellulite. At Undo, Skincare Center in Kansas City, Missouri, we can use radiofrequency (RF) body contouring
                         to reduce these signs of aging.
                     </p>
                 </div>
@@ -161,7 +161,7 @@ const RadioFrequencyComponent = () => {
                     <h2>What Should I Expect?</h2>
                     <p>
                         Before we can decide which skin treatment is best for you, we will ask you to visit us for a consultation. Our skin treatment professionals
-                        will review the areas you want to treat and discuss your long-term skin care goals. After this information has been collected, a customized
+                        will review the areas you want to treat and discuss your long-term skincare goals. After this information has been collected, a customized
                         treatment plan will be created with the technique that is best for your needs and goals.
                     </p>
 
@@ -198,9 +198,9 @@ const RadioFrequencyComponent = () => {
                         <li>Follow a low carb, low sugar diet</li>
                     </ul>
 
-                    <h2>Contact Undo, Skin care Center to Begin Your Transformation</h2>
+                    <h2>Contact Undo, Skincare Center to Begin Your Transformation</h2>
                     <p>
-                        If you have been trying to diet and exercise your way to fat loss and want better results, we can help. Visit Undo, Skin care Center in Kansas City, Missouri,
+                        If you have been trying to diet and exercise your way to fat loss and want better results, we can help. Visit Undo, Skincare Center in Kansas City, Missouri,
                         where we have years of experience helping patients attain a beautiful, toned, shapely appearance with radiofrequency body contouring. Please contact
                         us to schedule a consultation.
                     </p>

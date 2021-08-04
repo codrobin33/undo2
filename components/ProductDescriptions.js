@@ -2,11 +2,11 @@
 const people = [
     {
         name: 'EltaMD',
-        role: 'Sun care and skin care products',
+        role: 'Sun care and skincare products',
         imageUrl:
             '/img/eltamd_product.jpg',
         bio:
-            'EltaMD sun care and skin care products are formulated for every skin type, lifestyle and condition to protect, renew and heal skin health. Find the EltaMD product that is right for you.',
+            'EltaMD sun care and skincare products are formulated for every skin type, lifestyle and condition to protect, renew and heal skin health. Find the EltaMD product that is right for you.',
     },
     {
         name: 'Revision',
@@ -14,11 +14,11 @@ const people = [
         imageUrl:
             '/img/revision_product.jpg',
         bio:
-            'Revision Skin care was founded to change the way professional skin care results are achieved. We believe youthful-looking skin can be accomplished without ever compromising skin\'s long-term health.',
+            'Revision Skincare was founded to change the way professional skincare results are achieved. We believe youthful-looking skin can be accomplished without ever compromising skin\'s long-term health.',
     },
     {
         name: 'Elixir',
-        role: 'Luxury natural skin care',
+        role: 'Luxury natural skincare',
         imageUrl:
             '/img/elixir_product.jpg',
         bio:
