@@ -18,3 +18,8 @@ Todo -
 - friendly lightweight modern design - DONE
 - SEO Optimized, meta tags, sitechart, and more (this helps with natural search) - DONE
 - Testimonials - DONE
+
+
+notes:
+1. Products -> elixir - not skincare its collagen
+2. Add more before and afters
