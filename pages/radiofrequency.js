@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Contact from '../components/Contact';
+import MiniCTA from '../components/MiniCTA';
 
 import RadioFrequencyComponent from '../components/RadioFrequencyComponent';
 import ImageHeader from '../components/ImageHeader';
@@ -27,6 +29,10 @@ export default function RadioFrequency() {
                     <ImageHeader />
 
                     <RadioFrequencyComponent />
+
+                    <MiniCTA />
+
+                    <Contact />
 
                     <Footer />
 

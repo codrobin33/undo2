@@ -21,5 +21,5 @@ Todo -
 
 
 notes:
-1. Products -> elixir - not skincare its collagen
+1. Products -> elixir - not skincare its collagen - DONE
 2. Add more before and afters

@@ -7,6 +7,8 @@ import Header from '../components/Header';
 import Imports from '../components/Imports';
 import InfoCTA from '../components/InfoCTA';
 import MainHero from '../components/MainHero';
+import Acne from '../components/Acne';
+import Contact from '../components/Contact';
 
 export default function MedSpa() {
     return (
@@ -23,7 +25,9 @@ export default function MedSpa() {
                     <MainHero />
                     <InfoCTA />
                     <GenderTreatments />
+                    <Acne />
 
+                    <Contact />
                     <Footer />
 
                 </div>

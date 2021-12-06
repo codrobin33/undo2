@@ -77,7 +77,7 @@ const GenderTreatments = () => {
                     </p>
                 </div>
 
-                <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+                <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center" id="for_her">
                     <div className="relative">
                         <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
                             Treatments for her
@@ -155,7 +155,7 @@ const GenderTreatments = () => {
                     <rect width={404} height={784} fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
                 </svg>
 
-                <div className="relative mt-12 sm:mt-16 lg:mt-24">
+                <div className="relative mt-12 sm:mt-16 lg:mt-24" id="for_him">
                     <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                         <div className="lg:col-start-2">
                             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Treatments for him</h3>

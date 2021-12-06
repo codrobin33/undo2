@@ -3,8 +3,8 @@ import { LinkIcon } from '@heroicons/react/outline';
 
 const features = [
     {
-        name: 'Body Sculpting',
-        description: 'This is a non-invasive technique that uses heat and RF energy to shape your body by getting rid of undesirable fat cells.',
+        name: 'RF Body Contouring',
+        description: 'Radiofrequency body contouring tightens the skin, removes fat and improves tone without any downtime or pain at all.',
         href: '/radiofrequency'
     },
     {
@@ -30,17 +30,12 @@ const features = [
     {
         name: 'Aesthetic Treatments',
         description: 'Using non-invasive cosmetic procedures we can help you achieve all your wanted Skincare goals.',
-        href: '/'
+        href: '/med_spa'
     },
     {
         name: 'Acne Treatments',
         description: 'The latest in non-ablative, fractional laser technology to improve skin discoloration, stretch marks, acne scars and wrinkles.',
-        href: '/acne'
-    },
-    {
-        name: 'RF Body Contouring',
-        description: 'Radiofrequency body contouring tightens the skin, removes fat and improves tone without any downtime or pain at all.',
-        href: '/radiofrequency'
+        href: '/med_spa#acne'
     }
 ];
 
