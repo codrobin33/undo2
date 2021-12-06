@@ -17,12 +17,12 @@ const people = [
             'Revision Skincare was founded to change the way professional skincare results are achieved. We believe youthful-looking skin can be accomplished without ever compromising skin\'s long-term health.',
     },
     {
-        name: 'Elixir',
-        role: 'Luxury natural skincare',
+        name: 'Collagen Elixir',
+        role: 'Glow Radiantly, Live Beautifully',
         imageUrl:
-            '/img/elixir_product.jpg',
+            '/img/Collagen-Elixir.jpg',
         bio:
-            'At the heart of our company is a desire to take ancient knowledge from cultures from around the world and refine our understanding of how the body and skin works and what it needs through the evidence of science.',
+            'Infused with an innovative blend of marine collagen peptides and powerful botanicals, Collagen Elixir™ indulges your skin with both beauty and nourishment from the inside out.',
     },
     {
         name: 'iS CLINICAL',

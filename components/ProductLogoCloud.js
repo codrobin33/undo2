@@ -18,7 +18,7 @@ const ProductLogoCloud = () => {
                         <img className="max-h-12" src="/img/elta_logo.svg" alt="EltaMd" />
                     </div>
                     <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                        <img className="max-h-12" src="/img/elixir_logo.svg" alt="Tuple" />
+                        <img className="max-h-12" src="/img/isagenix.svg" alt="Isagenix" />
                     </div>
                     <div className="col-start-2 col-span-1 flex justify-center py-8 px-8 bg-gray-50">
                         <img className="max-h-12" src="/img/iSC_Logo_alt.png" alt="Laravel" />
