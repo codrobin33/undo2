@@ -72,15 +72,15 @@ export default function Header() {
                     <div className="px-4 sm:px-6 max-w-7xl mx-auto">
                         <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
                             <div className="flex justify-start lg:w-0 lg:flex-1 cursor-pointer">
-                                <Link href="/">
-                                    <>
+                                <Link href="/" passHref>
+                                    <a>
                                         <span className="sr-only">Undo</span>
                                         <img
                                             className="h-12 w-auto sm:h-12"
                                             src="img/Undo_psdraw.jpg"
                                             alt=""
                                         />
-                                    </>
+                                    </a>
                                 </Link>
                             </div>
                             <div className="-mr-2 -my-2 md:hidden">
@@ -90,8 +90,8 @@ export default function Header() {
                                 </Popover.Button>
                             </div>
                             <Popover.Group as="nav" className="hidden md:flex space-x-6 lg:space-x-10">
-                                <Link href="/">
-                                    <span className="text-base font-medium text-gray-500 hover:text-gray-900 cursor-pointer">Home</span>
+                                <Link href="/" passHref>
+                                    <a className="text-base font-medium text-gray-500 hover:text-gray-900 cursor-pointer">Home</a>
                                 </Link>
 
                                 <Popover className="relative">
@@ -133,14 +133,15 @@ export default function Header() {
                                                                 <Link
                                                                     key={item.name}
                                                                     href={item.href}
+                                                                    passHref
                                                                 >
-                                                                    <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
+                                                                    <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
                                                                         <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                                                                         <div className="ml-4">
                                                                             <p className="text-base font-medium text-gray-900">{item.name}</p>
                                                                             <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                                                                         </div>
-                                                                    </div>
+                                                                    </a>
                                                                 </Link>
                                                             ))}
                                                         </div>
@@ -190,14 +191,15 @@ export default function Header() {
                                                                 <Link
                                                                     key={item.name}
                                                                     href={item.href}
+                                                                    passHref
                                                                 >
-                                                                    <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
+                                                                    <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
                                                                         <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                                                                         <div className="ml-4">
                                                                             <p className="text-base font-medium text-gray-900">{item.name}</p>
                                                                             <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                                                                         </div>
-                                                                    </div>
+                                                                    </a>
                                                                 </Link>
                                                             ))}
                                                         </div>
@@ -208,8 +210,8 @@ export default function Header() {
                                     )}
                                 </Popover>
 
-                                <Link href="#contact">
-                                    <span className="text-base font-medium text-gray-500 hover:text-gray-900 cursor-pointer">Contact&nbsp;us</span>
+                                <Link href="#contact" passHref>
+                                    <a className="text-base font-medium text-gray-500 hover:text-gray-900 cursor-pointer">Contact&nbsp;us</a>
                                 </Link>
                             </Popover.Group>
                             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
@@ -256,11 +258,12 @@ export default function Header() {
                                                 <Link
                                                     key={item.name}
                                                     href={item.href}
+                                                    passHref
                                                 >
-                                                    <div className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50 cursor-pointer">
+                                                    <a className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50 cursor-pointer">
                                                         <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                                                         <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
-                                                    </div>
+                                                    </a>
                                                 </Link>
                                             ))}
                                         </nav>
@@ -272,8 +275,9 @@ export default function Header() {
                                             <Link
                                                 key={item.name}
                                                 href={item.href}
+                                                passHref
                                             >
-                                                <span className="text-base font-medium text-gray-900 hover:text-gray-700 cursor-pointer">{item.name}</span>
+                                                <a className="text-base font-medium text-gray-900 hover:text-gray-700 cursor-pointer">{item.name}</a>
                                             </Link>
                                         ))}
                                     </div>
