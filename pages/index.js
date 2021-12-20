@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import Banner from '../components/Banner';
+import BeforeAfter from '../components/BeforeAfter';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import GenderTreatments from '../components/GenderTreatments';
@@ -32,6 +33,8 @@ export default function Home() {
           <MainHero />
           <MiniCTA />
           <ServicesShortList />
+          <BeforeAfter
+          />
           <RadioFrequencyCTA />
           <GenderTreatments />
           <InfoCTA />

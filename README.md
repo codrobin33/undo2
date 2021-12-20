@@ -22,7 +22,7 @@ Todo -
 
 notes:
 1. Products -> elixir - not skincare its collagen - DONE
-2. Add more before and afters
+2. Add more before and afters - DONE
 
 
 

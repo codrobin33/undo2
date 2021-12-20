@@ -12,6 +12,8 @@ import VideoHero from '../components/VideoHero';
 import MainHero from '../components/MainHero';
 import TattooPricing from '../components/TattooPricing';
 import Contact from '../components/Contact';
+import BeforeAfter from '../components/BeforeAfter';
+import InfoCTA from '../components/InfoCTA';
 
 export default function Tattoo() {
     return (
@@ -30,6 +32,13 @@ export default function Tattoo() {
                 <div className="max-w-7xl mx-auto space-y-4 bg-white">
 
                     <MainHero />
+
+                    <InfoCTA />
+
+                    <BeforeAfter
+
+                    />
+
                     <TattooImageCTA />
                     <CommonReasonsTattooRemoval />
                     <VideoHero />
