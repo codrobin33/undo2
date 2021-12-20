@@ -4,7 +4,7 @@ const people = [
         name: 'EltaMD',
         role: 'Sun care and skincare products',
         imageUrl:
-            '/img/eltamd_product.jpg',
+            'img/eltamd_product.jpg',
         bio:
             'EltaMD sun care and skincare products are formulated for every skin type, lifestyle and condition to protect, renew and heal skin health. Find the EltaMD product that is right for you.',
     },
@@ -12,7 +12,7 @@ const people = [
         name: 'Revision',
         role: 'Achieve Healthy, Beautiful Skin',
         imageUrl:
-            '/img/revision_product.jpg',
+            'img/revision_product.jpg',
         bio:
             'Revision Skincare was founded to change the way professional skincare results are achieved. We believe youthful-looking skin can be accomplished without ever compromising skin\'s long-term health.',
     },
@@ -20,7 +20,7 @@ const people = [
         name: 'Collagen Elixir',
         role: 'Glow Radiantly, Live Beautifully',
         imageUrl:
-            '/img/Collagen-Elixir.jpg',
+            'img/Collagen-Elixir.jpg',
         bio:
             'Infused with an innovative blend of marine collagen peptides and powerful botanicals, Collagen Elixir™ indulges your skin with both beauty and nourishment from the inside out.',
     },
@@ -28,7 +28,7 @@ const people = [
         name: 'iS CLINICAL',
         role: 'Clinical facials at home',
         imageUrl:
-            '/img/iSC_product.jpg',
+            'img/iSC_product.jpg',
         bio:
             'To complement our home care products, iS CLINICAL offers an array of luxurious, powerful and dramatically effective professional facial protocols to visually address all skin types and concerns.',
     }
