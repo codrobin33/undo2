@@ -26,14 +26,14 @@ export default function EquipmentHeader() {
                                         <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                                             <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                                                 <img
-                                                    src="/img/nuera.png"
+                                                    src="img/nuera.png"
                                                     alt=""
                                                     className="w-full h-full object-center  object-contain"
                                                 />
                                             </div>
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
                                                 <img
-                                                    src="/img/m22.png"
+                                                    src="img/m22.png"
                                                     alt=""
                                                     className="w-full h-full object-center  object-contain"
                                                 />
@@ -42,21 +42,21 @@ export default function EquipmentHeader() {
                                         <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
                                                 <img
-                                                    src="/img/ResurFX.webp"
+                                                    src="img/ResurFX.webp"
                                                     alt=""
                                                     className="w-full h-full object-center  object-contain"
                                                 />
                                             </div>
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
                                                 <img
-                                                    src="/img/piqo.jpg"
+                                                    src="img/piqo.jpg"
                                                     alt=""
                                                     className="w-full h-full object-center object-contain"
                                                 />
                                             </div>
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
                                                 <img
-                                                    src="/img/ipl.webp"
+                                                    src="img/ipl.webp"
                                                     alt=""
                                                     className="w-full h-full object-center object-contain"
                                                 />
@@ -65,14 +65,14 @@ export default function EquipmentHeader() {
                                         <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
                                                 <img
-                                                    src="/img/nuera_extra.webp"
+                                                    src="img/nuera_extra.webp"
                                                     alt=""
                                                     className="w-full h-full object-center object-contain"
                                                 />
                                             </div>
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
                                                 <img
-                                                    src="/img/nuera.png"
+                                                    src="img/nuera.png"
                                                     alt=""
                                                     className="w-full h-full object-center object-contain"
                                                 />

@@ -91,7 +91,7 @@ const TattooDeviceInfo = () => {
                         <figure className="m-auto md:float-left w-1/3 md:mr-2">
                             <img
                                 className="w-full rounded-lg"
-                                src="/img/piqo.jpg"
+                                src="img/piqo.jpg"
                                 alt=""
                             />
                         </figure>
@@ -115,7 +115,7 @@ const TattooDeviceInfo = () => {
                     <figure>
                         <img
                             className="w-full rounded-lg"
-                            src="/img/Rocks-To-Pebbles-To-Sand.png"
+                            src="img/Rocks-To-Pebbles-To-Sand.png"
                             alt=""
                         />
                     </figure>
@@ -130,7 +130,7 @@ const TattooDeviceInfo = () => {
                         <figure className="m-auto md:float-right w-1/3 md:mr-2">
                             <img
                                 className="w-full rounded-lg"
-                                src="/img/PiQo4-Wheel.png"
+                                src="img/PiQo4-Wheel.png"
                                 alt=""
                             />
                         </figure>

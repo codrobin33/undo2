@@ -10,18 +10,18 @@ const ProductLogoCloud = () => {
                     <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
                         <img
                             className="max-h-12"
-                            src="/img/revision_logo.png"
+                            src="img/revision_logo.png"
                             alt="Revision"
                         />
                     </div>
                     <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                        <img className="max-h-12" src="/img/elta_logo.svg" alt="EltaMd" />
+                        <img className="max-h-12" src="img/elta_logo.svg" alt="EltaMd" />
                     </div>
                     <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                        <img className="max-h-12" src="/img/isagenix.svg" alt="Isagenix" />
+                        <img className="max-h-12" src="img/isagenix.svg" alt="Isagenix" />
                     </div>
                     <div className="col-start-2 col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                        <img className="max-h-12" src="/img/iSC_Logo_alt.png" alt="Laravel" />
+                        <img className="max-h-12" src="img/iSC_Logo_alt.png" alt="Laravel" />
                     </div>
                 </div>
             </div>

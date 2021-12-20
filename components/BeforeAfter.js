@@ -2,27 +2,27 @@ import { useCallback, useState, useMemo } from "react";
 
 const list = [
     {
-        before: "/img/skin_resurfacing_before.jpg",
+        before: "img/skin_resurfacing_before.jpg",
         before_desc: 'Baseline',
-        after: "/img/skin_resurfacing_after.jpg",
+        after: "img/skin_resurfacing_after.jpg",
         after_desc: 'After 1 treatment'
     },
     {
-        before: "/img/acne_before.jpg",
+        before: "img/acne_before.jpg",
         before_desc: 'Baseline',
-        after: "/img/acne_after.jpg",
+        after: "img/acne_after.jpg",
         after_desc: 'After 5 treatment'
     },
     {
-        before: "/img/tattoo_wing_before.jpg",
+        before: "img/tattoo_wing_before.jpg",
         before_desc: 'Baseline',
-        after: "/img/tattoo_wing_after.jpg",
+        after: "img/tattoo_wing_after.jpg",
         after_desc: 'After 9 treatment'
     },
     {
-        before: "/img/vascular_lesions_before.jpg",
+        before: "img/vascular_lesions_before.jpg",
         before_desc: 'Baseline',
-        after: "/img/vascular_lesions_after.jpg",
+        after: "img/vascular_lesions_after.jpg",
         after_desc: 'After 9 treatment'
     }
 ];

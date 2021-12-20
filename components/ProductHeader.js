@@ -22,7 +22,7 @@ const ProductHeader = () => {
             <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
                 <img
                     className="absolute inset-0 w-full h-full object-cover"
-                    src="/img/product_header.jpg"
+                    src="img/product_header.jpg"
                     alt="Product Header"
                 />
             </div>
