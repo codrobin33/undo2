@@ -77,7 +77,7 @@ export default function Header() {
                                         <span className="sr-only">Undo</span>
                                         <img
                                             className="h-12 w-auto sm:h-12"
-                                            src="img/Undo_psdraw.jpg"
+                                            src="/img/Undo_psdraw.jpg"
                                             alt=""
                                         />
                                     </a>
@@ -241,7 +241,7 @@ export default function Header() {
                                         <div>
                                             <img
                                                 className="h-8 w-auto"
-                                                src="img/Undo_psdraw.jpg"
+                                                src="/img/Undo_psdraw.jpg"
                                                 alt="Workflow"
                                             />
                                         </div>
