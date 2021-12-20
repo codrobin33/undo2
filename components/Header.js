@@ -10,6 +10,7 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon, CogIcon, CurrencyDollarIcon, QuestionMarkCircleIcon, UserIcon as UserSolidIcon } from '@heroicons/react/solid'
 import TimelyBookButton from './TimelyBookButton'
+import Link from 'next/link'
 
 const tattoos = [
     {
@@ -71,14 +72,16 @@ export default function Header() {
                     <div className="px-4 sm:px-6 max-w-7xl mx-auto">
                         <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
                             <div className="flex justify-start lg:w-0 lg:flex-1">
-                                <a href="/">
-                                    <span className="sr-only">Undo</span>
-                                    <img
-                                        className="h-12 w-auto sm:h-12"
-                                        src="img/Undo_psdraw.jpg"
-                                        alt=""
-                                    />
-                                </a>
+                                <Link href="/">
+                                    <>
+                                        <span className="sr-only">Undo</span>
+                                        <img
+                                            className="h-12 w-auto sm:h-12"
+                                            src="img/Undo_psdraw.jpg"
+                                            alt=""
+                                        />
+                                    </>
+                                </Link>
                             </div>
                             <div className="-mr-2 -my-2 md:hidden">
                                 <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -87,9 +90,9 @@ export default function Header() {
                                 </Popover.Button>
                             </div>
                             <Popover.Group as="nav" className="hidden md:flex space-x-6 lg:space-x-10">
-                                <a href="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
-                                    Home
-                                </a>
+                                <Link href="/" >
+                                    <span className="text-base font-medium text-gray-500 hover:text-gray-900">Home</span>
+                                </Link>
 
                                 <Popover className="relative">
                                     {({ open }) => (
@@ -127,17 +130,18 @@ export default function Header() {
                                                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                                                             {tattoos.map((item) => (
-                                                                <a
+                                                                <Link
                                                                     key={item.name}
                                                                     href={item.href}
-                                                                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                                                 >
-                                                                    <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
-                                                                    <div className="ml-4">
-                                                                        <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                                                        <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                                                    <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                                                                        <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                                                        <div className="ml-4">
+                                                                            <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                                                            <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                                                        </div>
                                                                     </div>
-                                                                </a>
+                                                                </Link>
                                                             ))}
                                                         </div>
                                                     </div>
@@ -183,17 +187,18 @@ export default function Header() {
                                                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                                                             {med_spas.map((item) => (
-                                                                <a
+                                                                <Link
                                                                     key={item.name}
                                                                     href={item.href}
-                                                                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                                                 >
-                                                                    <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
-                                                                    <div className="ml-4">
-                                                                        <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                                                        <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                                                    <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                                                                        <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                                                        <div className="ml-4">
+                                                                            <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                                                            <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                                                        </div>
                                                                     </div>
-                                                                </a>
+                                                                </Link>
                                                             ))}
                                                         </div>
                                                     </div>
@@ -203,9 +208,9 @@ export default function Header() {
                                     )}
                                 </Popover>
 
-                                <a href="#contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
-                                    Contact&nbsp;us
-                                </a>
+                                <Link href="#contact">
+                                    <span className="text-base font-medium text-gray-500 hover:text-gray-900">Contact&nbsp;us</span>
+                                </Link>
                             </Popover.Group>
                             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                                 <TimelyBookButton size="small" />
@@ -248,14 +253,15 @@ export default function Header() {
                                     <div className="mt-6">
                                         <nav className="grid gap-y-8">
                                             {tattoos.map((item) => (
-                                                <a
+                                                <Link
                                                     key={item.name}
                                                     href={item.href}
-                                                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                                                 >
-                                                    <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
-                                                    <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
-                                                </a>
+                                                    <div className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                                                        <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                                        <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
+                                                    </div>
+                                                </Link>
                                             ))}
                                         </nav>
                                     </div>
@@ -263,22 +269,20 @@ export default function Header() {
                                 <div className="py-6 px-5 space-y-6">
                                     <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                                         {med_spas.map((item) => (
-                                            <a
+                                            <Link
                                                 key={item.name}
                                                 href={item.href}
-                                                className="text-base font-medium text-gray-900 hover:text-gray-700"
                                             >
-                                                {item.name}
-                                            </a>
+                                                <span className="text-base font-medium text-gray-900 hover:text-gray-700">{item.name}</span>
+                                            </Link>
                                         ))}
                                     </div>
-                                    <div>
-                                        <a
-                                            href="#"
-                                            className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                                    <div className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+                                        <Link
+                                            href="/"
                                         >
                                             Book now
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
