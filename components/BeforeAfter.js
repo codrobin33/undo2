@@ -1,5 +1,4 @@
-import { useCallback, useState } from "react";
-import { useMemo } from "react/cjs/react.development";
+import { useCallback, useState, useMemo } from "react";
 
 const list = [
     {
@@ -70,7 +69,7 @@ export default function BeforeAfter() {
 
     return (
         <div className="bg-white">
-            <div className="max-w-2xl mx-auto px-4 py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+            <div className="max-w-2xl mx-auto px-4 py-12 sm:px-6 lg:max-w-7xl lg:px-8">
                 {/* Details section */}
                 <section aria-labelledby="details-heading">
                     <div className="flex flex-col items-center text-center">

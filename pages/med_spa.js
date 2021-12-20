@@ -27,7 +27,6 @@ export default function MedSpa() {
                     <InfoCTA />
                     <GenderTreatments />
                     <BeforeAfter />
-                    <Acne />
 
                     <Contact />
                     <Footer />
