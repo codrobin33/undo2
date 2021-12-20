@@ -71,7 +71,7 @@ export default function Header() {
                 <>
                     <div className="px-4 sm:px-6 max-w-7xl mx-auto">
                         <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
-                            <div className="flex justify-start lg:w-0 lg:flex-1">
+                            <div className="flex justify-start lg:w-0 lg:flex-1 cursor-pointer">
                                 <Link href="/">
                                     <>
                                         <span className="sr-only">Undo</span>
@@ -91,7 +91,7 @@ export default function Header() {
                             </div>
                             <Popover.Group as="nav" className="hidden md:flex space-x-6 lg:space-x-10">
                                 <Link href="/" >
-                                    <span className="text-base font-medium text-gray-500 hover:text-gray-900">Home</span>
+                                    <span className="text-base font-medium text-gray-500 hover:text-gray-900 cursor-pointer">Home</span>
                                 </Link>
 
                                 <Popover className="relative">
@@ -134,7 +134,7 @@ export default function Header() {
                                                                     key={item.name}
                                                                     href={item.href}
                                                                 >
-                                                                    <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                                                                    <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
                                                                         <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                                                                         <div className="ml-4">
                                                                             <p className="text-base font-medium text-gray-900">{item.name}</p>
@@ -191,7 +191,7 @@ export default function Header() {
                                                                     key={item.name}
                                                                     href={item.href}
                                                                 >
-                                                                    <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                                                                    <div className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
                                                                         <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                                                                         <div className="ml-4">
                                                                             <p className="text-base font-medium text-gray-900">{item.name}</p>
@@ -209,7 +209,7 @@ export default function Header() {
                                 </Popover>
 
                                 <Link href="#contact">
-                                    <span className="text-base font-medium text-gray-500 hover:text-gray-900">Contact&nbsp;us</span>
+                                    <span className="text-base font-medium text-gray-500 hover:text-gray-900 cursor-pointer">Contact&nbsp;us</span>
                                 </Link>
                             </Popover.Group>
                             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
@@ -257,7 +257,7 @@ export default function Header() {
                                                     key={item.name}
                                                     href={item.href}
                                                 >
-                                                    <div className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                                                    <div className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50 cursor-pointer">
                                                         <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                                                         <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                                                     </div>
@@ -273,7 +273,7 @@ export default function Header() {
                                                 key={item.name}
                                                 href={item.href}
                                             >
-                                                <span className="text-base font-medium text-gray-900 hover:text-gray-700">{item.name}</span>
+                                                <span className="text-base font-medium text-gray-900 hover:text-gray-700 cursor-pointer">{item.name}</span>
                                             </Link>
                                         ))}
                                     </div>
