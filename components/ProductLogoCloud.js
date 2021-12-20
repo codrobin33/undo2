@@ -1,3 +1,5 @@
+import WrappedImage from "./WrappedImage";
+
 /* This example requires Tailwind CSS v2.0+ */
 const ProductLogoCloud = () => {
     return (
@@ -8,20 +10,20 @@ const ProductLogoCloud = () => {
                 </p>
                 <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
                     <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                        <img
+                        <WrappedImage
                             className="max-h-12"
                             src="img/revision_logo.png"
                             alt="Revision"
                         />
                     </div>
                     <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                        <img className="max-h-12" src="img/elta_logo.svg" alt="EltaMd" />
+                        <WrappedImage className="max-h-12" src="img/elta_logo.svg" alt="EltaMd" />
                     </div>
                     <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                        <img className="max-h-12" src="img/isagenix.svg" alt="Isagenix" />
+                        <WrappedImage className="max-h-12" src="img/isagenix.svg" alt="Isagenix" />
                     </div>
                     <div className="col-start-2 col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-                        <img className="max-h-12" src="img/iSC_Logo_alt.png" alt="Laravel" />
+                        <WrappedImage className="max-h-12" src="img/iSC_Logo_alt.png" alt="Laravel" />
                     </div>
                 </div>
             </div>

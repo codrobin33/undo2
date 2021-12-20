@@ -1,4 +1,5 @@
 import TimelyBookButton from "./TimelyBookButton";
+import WrappedImage from "./WrappedImage";
 
 const RadioFrequencyCTA = () => {
     return (
@@ -10,7 +11,7 @@ const RadioFrequencyCTA = () => {
                         <div className="absolute inset-x-0 h-1/2 lg:hidden" aria-hidden="true" />
                         <div className="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
                             <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
-                                <img
+                                <WrappedImage
                                     className="object-cover object-center rounded-3xl shadow-2xl bg-indigo-800"
                                     src="img/tape-leg.jpg"
                                     alt=""

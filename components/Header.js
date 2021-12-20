@@ -11,6 +11,7 @@ import {
 import { ChevronDownIcon, CogIcon, CurrencyDollarIcon, QuestionMarkCircleIcon, UserIcon as UserSolidIcon } from '@heroicons/react/solid'
 import TimelyBookButton from './TimelyBookButton'
 import Link from 'next/link'
+import WrappedImage from './WrappedImage'
 
 const tattoos = [
     {
@@ -75,7 +76,7 @@ export default function Header() {
                                 <Link href="/" passHref>
                                     <a>
                                         <span className="sr-only">Undo</span>
-                                        <img
+                                        <WrappedImage
                                             className="h-12 w-auto sm:h-12"
                                             src="/img/Undo_psdraw.jpg"
                                             alt=""
@@ -239,7 +240,7 @@ export default function Header() {
                                 <div className="pt-5 pb-6 px-5">
                                     <div className="flex items-center justify-between">
                                         <div>
-                                            <img
+                                            <WrappedImage
                                                 className="h-8 w-auto"
                                                 src="/img/Undo_psdraw.jpg"
                                                 alt="Workflow"

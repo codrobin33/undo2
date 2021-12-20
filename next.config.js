@@ -8,7 +8,7 @@ module.exports = {
     assetPrefix: isProd ? 'https://codrobin33.github.io/undo2' : '',
     basePath: isProd ? '/undo2' : '',
     env: {
-        css_url: isProd ? '/undo2/' : ''
+        img_url: isProd ? '/undo2/' : ''
     },
     trailingSlash: isProd ? true : false
 };

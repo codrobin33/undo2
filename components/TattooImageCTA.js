@@ -6,13 +6,13 @@ const TattooImageCTA = () => (
         className="is-parallax"
         style={{
             marginTop: '0',
-            background: `url('${process.env.css_url}img/tattoo-art-body-wallpapers.jpg') top`,
+            background: `url('${process.env.img_url}img/tattoo-art-body-wallpapers.jpg') top`,
             backgroundPosition: 'center'
         }}>
         <div
             className="w-full has-dot-overlay"
             style={{
-                background: `url('${process.env.css_url}img/dot.png')`
+                background: `url('${process.env.img_url}img/dot.png')`
             }}
         >
             <div className="max-w-3xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">

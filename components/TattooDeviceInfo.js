@@ -1,3 +1,4 @@
+import WrappedImage from "./WrappedImage";
 
 const TattooDeviceInfo = () => {
     return (
@@ -89,7 +90,7 @@ const TattooDeviceInfo = () => {
                 <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
                     <div className="w-full">
                         <figure className="m-auto md:float-left w-1/3 md:mr-2">
-                            <img
+                            <WrappedImage
                                 className="w-full rounded-lg"
                                 src="img/piqo.jpg"
                                 alt=""
@@ -113,7 +114,7 @@ const TattooDeviceInfo = () => {
                         Clinical studies have shown that the optimal method for shattering pigment particles is to treat them with both Nano and Picosecond laser pulses.
                     </p>
                     <figure>
-                        <img
+                        <WrappedImage
                             className="w-full rounded-lg"
                             src="img/Rocks-To-Pebbles-To-Sand.png"
                             alt=""
@@ -128,7 +129,7 @@ const TattooDeviceInfo = () => {
 
                     <div className="w-full">
                         <figure className="m-auto md:float-right w-1/3 md:mr-2">
-                            <img
+                            <WrappedImage
                                 className="w-full rounded-lg"
                                 src="img/PiQo4-Wheel.png"
                                 alt=""

@@ -1,9 +1,11 @@
+import WrappedImage from "./WrappedImage";
+
 /* This example requires Tailwind CSS v2.0+ */
 const ImageHeader = () => {
     return (
         <div className="relative bg-indigo-800">
             <div className="absolute inset-0">
-                <img
+                <WrappedImage
                     className="w-full h-full object-cover"
                     src="img/tape-leg.jpg"
                     alt=""

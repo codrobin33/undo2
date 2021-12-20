@@ -1,3 +1,5 @@
+import WrappedImage from "./WrappedImage";
+
 /* This example requires Tailwind CSS v2.0+ */
 const Testimonial = () => {
     return (
@@ -51,7 +53,7 @@ const Testimonial = () => {
 
                 <div className="relative lg:flex lg:items-center">
                     <div className="hidden lg:block lg:flex-shrink-0">
-                        <img
+                        <WrappedImage
                             className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
                             src="img/cass.jpg"
                             alt=""
@@ -83,7 +85,7 @@ const Testimonial = () => {
                             <footer className="mt-8">
                                 <div className="flex">
                                     <div className="flex-shrink-0 lg:hidden">
-                                        <img
+                                        <WrappedImage
                                             className="h-12 w-12 rounded-full"
                                             src="img/cass.jpg"
                                             alt=""

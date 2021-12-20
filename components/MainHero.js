@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { useStopwatch } from "react-timer-hook";
 import { Transition } from "@headlessui/react";
 import TimelyBookButton from "./TimelyBookButton";
+import WrappedImage from "./WrappedImage";
 
 const HEADLINES = [
     'Body Sculpting',
@@ -73,7 +74,7 @@ const MainHero = () => {
                     </div>
                 </div>
                 <div className="relative hidden md:inline w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-2/5 lg:h-full">
-                    <img
+                    <WrappedImage
                         className="absolute inset-0 w-full h-full object-cover"
                         src="img/acne_slider1.jpg"
                         alt=""

@@ -1,4 +1,5 @@
 import { useCallback, useState, useMemo } from "react";
+import WrappedImage from "./WrappedImage";
 
 const list = [
     {
@@ -85,7 +86,7 @@ export default function BeforeAfter() {
                     <div className="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
                         <div>
                             <div className="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-                                <img
+                                <WrappedImage
                                     src={currentPage.before}
                                     alt=""
                                     className="w-full h-full object-center object-cover"
@@ -97,7 +98,7 @@ export default function BeforeAfter() {
                         </div>
                         <div>
                             <div className="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-                                <img
+                                <WrappedImage
                                     src={currentPage.after}
                                     alt=""
                                     className="w-full h-full object-center object-cover"
