@@ -9,5 +9,6 @@ module.exports = {
     basePath: isProd ? '/undo2' : '',
     env: {
         css_url: isProd ? '/undo2/' : ''
-    }
+    },
+    trailingSlash: isProd ? true : false
 };
