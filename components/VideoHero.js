@@ -7,7 +7,7 @@ const VideoHero = () => {
                 <div>
                     <div className="inset-0">
                         <video playsInline autoPlay muted loop id="bgvideo">
-                            <source src="/video/pico_bg.mp4#t=0.1" type="video/mp4" />
+                            <source src="video/pico_bg.mp4#t=0.1" type="video/mp4" />
                         </video>
                     </div>
 

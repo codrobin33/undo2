@@ -8,6 +8,6 @@ module.exports = {
     assetPrefix: isProd ? '/undo2/' : '',
     basePath: isProd ? '/undo2' : '',
     env: {
-        css_url: isProd ? '/docs/' : ''
+        css_url: isProd ? '/undo2/' : ''
     }
 };
