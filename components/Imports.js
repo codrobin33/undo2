@@ -15,7 +15,7 @@ const Imports = ({
     <meta property="og:type" content="website" />
     <meta property="og:title" content={metaTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={`${process.env.img_url}img/office.jpg`} />
+    <meta property="og:image" content={`https://codrobin33.github.io/undo2/img/office.jpg`} />
 
     {/* <!-- Twitter Meta Tags --> */}
     <meta name="twitter:card" content="summary_large_image" />
@@ -23,7 +23,7 @@ const Imports = ({
     <meta property="twitter:url" content="https://codrobin33.github.io/undo2/" />
     <meta name="twitter:title" content={metaTitle} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={`${process.env.img_url}img/office.jpg`} />
+    <meta name="twitter:image" content={`https://codrobin33.github.io/undo2/img/office.jpg`} />
 
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="icon" href={`${process.env.img_url}/favicon.ico`} />
