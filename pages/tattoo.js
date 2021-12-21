@@ -9,11 +9,11 @@ import TattooCTA from '../components/TattooCTA';
 import TattooDeviceInfo from '../components/TattooDeviceInfo';
 import TattooImageCTA from '../components/TattooImageCTA';
 import VideoHero from '../components/VideoHero';
-import MainHero from '../components/MainHero';
 import TattooPricing from '../components/TattooPricing';
 import Contact from '../components/Contact';
 import BeforeAfter from '../components/BeforeAfter';
 import InfoCTA from '../components/InfoCTA';
+import SimpleLightCTA from '../components/SimpleLightCTA';
 
 export default function Tattoo() {
     return (
@@ -30,21 +30,22 @@ export default function Tattoo() {
                 <Header />
 
                 <div className="max-w-7xl mx-auto space-y-4 bg-white">
+                    <VideoHero />
+                    <SimpleLightCTA />
+                    {/* <MainHero /> */}
 
-                    <MainHero />
+                    {/* <InfoCTA /> */}
 
-                    <InfoCTA />
-
-                    <BeforeAfter
-
-                    />
+                    <BeforeAfter />
+                    <CommonReasonsTattooRemoval />
 
                     <TattooImageCTA />
-                    <CommonReasonsTattooRemoval />
-                    <VideoHero />
+
+
                     <TattooDeviceInfo />
                     <TattooCTA />
                     <TattooPricing />
+                    <InfoCTA />
 
                     <Contact />
                     <Footer />
@@ -52,5 +53,5 @@ export default function Tattoo() {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
