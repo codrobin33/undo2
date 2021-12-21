@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { LinkIcon } from '@heroicons/react/outline';
+import Link from 'next/link';
 
 const features = [
     {
@@ -56,10 +57,12 @@ const ServicesShortList = () => {
                         {features.map((feature) => (
                             <div key={feature.name} className="relative">
                                 <dt>
-                                    <a href={feature.href} className="cursor-pointer  hover:underline">
-                                        <LinkIcon className="absolute h-6 w-6 text-indigo-600" aria-hidden="true" />
-                                        <span className="ml-9 text-lg leading-6 font-medium text-gray-900">{feature.name}</span>
-                                    </a>
+                                    <Link href={feature.href} passHref>
+                                        <a className="cursor-pointer  hover:underline">
+                                            <LinkIcon className="absolute h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                            <span className="ml-9 text-lg leading-6 font-medium text-gray-900">{feature.name}</span>
+                                        </a>
+                                    </Link>
                                 </dt>
                                 <dd className="mt-2 ml-9 text-base text-gray-500">{feature.description}</dd>
                             </div>
