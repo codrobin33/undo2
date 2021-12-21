@@ -21,7 +21,7 @@ export default function Tattoo() {
             <Head>
                 <Imports
                     metaTitle="We are the experts in Tattoo removal"
-                    description="At Undo, Skincare Center, Tattoo Removal and Day Med Spa, we want you to look and feel your best. Our team are experts here to provide a customized treatment plan to help you get there!"
+                    description="At Undo Skincare Center, Tattoo Removal and Day Med Spa, we want you to look and feel your best. Our team are experts here to provide a customized treatment plan to help you get there!"
                 />
             </Head>
 

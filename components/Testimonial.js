@@ -76,7 +76,7 @@ const Testimonial = () => {
                         <blockquote className="relative">
                             <div className="text-2xl leading-9 font-medium text-gray-900">
                                 <p>
-                                    This is what RELAXED looks like, friends. I just had my massage at Undo, Skincare Center and I feel fantastic.
+                                    This is what RELAXED looks like, friends. I just had my massage at Undo Skincare Center and I feel fantastic.
                                     I wasn't entirely ready to get back to the kids but I was definitely more prepared for the up and down that
                                     comes with having a baby on the move. ❤️
                                     I can't wait to get back next month - it's already booked.

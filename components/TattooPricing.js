@@ -79,7 +79,7 @@ const TattooPricing = () => {
 
                             <h3>Size:</h3>
                             <p>
-                                Size is the number one factor in determining how much it will cost to remove your tattoo. Undo, Laser Skincare
+                                Size is the number one factor in determining how much it will cost to remove your tattoo. Undo Laser Skincare
                                 Center measures tattoos in compressed ink square inches, and we charge per square inch to remove a tattoo.
                             </p>
                             <h3>Location:</h3>

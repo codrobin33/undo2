@@ -54,7 +54,7 @@ const Footer = () => {
                         </Link>
                     ))}
                 </div>
-                <p className="mt-8 text-center text-base text-gray-400">&copy; 2021 Undo, Skincare Center. All rights reserved.</p>
+                <p className="mt-8 text-center text-base text-gray-400">&copy; 2021 Undo Skincare Center. All rights reserved.</p>
             </div>
         </footer>
     )

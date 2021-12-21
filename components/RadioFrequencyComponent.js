@@ -83,7 +83,7 @@ const RadioFrequencyComponent = () => {
                     </h1>
                     <p className="mt-8 text-xl text-gray-500 leading-8">
                         As our bodies age, they may start to show more fat deposits despite regular diet and exercise. Our skin might sag
-                        and show more cellulite. At Undo, Skincare Center in Kansas City, Missouri, we can use radiofrequency (RF) body contouring
+                        and show more cellulite. At Undo Skincare Center in Kansas City, Missouri, we can use radiofrequency (RF) body contouring
                         to reduce these signs of aging.
                     </p>
                 </div>
@@ -199,9 +199,9 @@ const RadioFrequencyComponent = () => {
                         <li>Follow a low carb, low sugar diet</li>
                     </ul>
 
-                    <h2>Contact Undo, Skincare Center to Begin Your Transformation</h2>
+                    <h2>Contact Undo Skincare Center to Begin Your Transformation</h2>
                     <p>
-                        If you have been trying to diet and exercise your way to fat loss and want better results, we can help. Visit Undo, Skincare Center in Kansas City, Missouri,
+                        If you have been trying to diet and exercise your way to fat loss and want better results, we can help. Visit Undo Skincare Center in Kansas City, Missouri,
                         where we have years of experience helping patients attain a beautiful, toned, shapely appearance with radiofrequency body contouring. Please contact
                         us to schedule a consultation.
                     </p>

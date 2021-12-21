@@ -1,8 +1,8 @@
 
 
 const Imports = ({
-  metaTitle = 'Undo, Skincare Center',
-  description = 'At Undo, Skincare Center, Tattoo Removal and Day Med Spa, we want you to look and feel your best. Our team are experts here to provide a customized treatment plan to help you get there!'
+  metaTitle = 'Undo Skincare Center',
+  description = 'At Undo Skincare Center we want you to look and feel your best. Our team are experts here to provide a customized treatment plan to help you get there!'
 }) => (
   <>
     <title>{metaTitle}</title>
@@ -10,8 +10,23 @@ const Imports = ({
     <meta property="og:title" content={metaTitle} />
     <meta property="og:description" content={description} />
 
+    {/* <!-- Facebook Meta Tags --> */}
+    <meta property="og:url" content="https://codrobin33.github.io/undo2/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={metaTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="undo2/img/office.jpg" />
+
+    {/* <!-- Twitter Meta Tags --> */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="codrobin33.github.io" />
+    <meta property="twitter:url" content="https://codrobin33.github.io/undo2/" />
+    <meta name="twitter:title" content={metaTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="undo2/img/office.jpg" />
+
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href={`${process.env.img_url}/favicon.ico`} />
     <script id="timelyScript" src="https://book.gettimely.com/widget/book-button-v1.5.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106878463-1"></script>
     <script dangerouslySetInnerHTML={{

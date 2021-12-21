@@ -78,7 +78,7 @@ export default function BeforeAfter() {
                             Before / After
                         </h2>
                         <p className="mt-3 max-w-3xl text-lg text-gray-600">
-                            A few examples on how Undo, Skincare Center can help you!
+                            A few examples on how Undo Skincare Center can help you!
                         </p>
                     </div>
 
