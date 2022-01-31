@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useStopwatch } from "react-timer-hook";
 import Link from "next/link";
+import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import { ChevronRightIcon, PlayIcon } from "@heroicons/react/outline";
 import WrappedImage from "./WrappedImage";
@@ -16,8 +17,12 @@ const HEADLINES = [
     'RF Body Contouring'
 ];
 
+function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+}
+
 const TextImageHeader = ({
-    src = 'img/acne_slider1.jpg',
+    src = '/img/acne_slider1.jpg',
     reversed = false
 }) => {
     const [line, setLine] = useState(0);
@@ -44,11 +49,14 @@ const TextImageHeader = ({
                     <div className="relative w-full h-full bg-gray-900/10 bg-gradient-to-b from-gray-900/50 via-gray-900/20 to-gray-900 z-10" />
 
                     <div className="h-full w-full">
-                        <WrappedImage
-                            className="absolute top-0 h-full w-full object-cover"
+                        <Image
                             src={src}
+                            className={classNames(
+                                "absolute top-0 h-full w-full",
+                                reversed && '-scale-x-100'
+                            )}
+                            layout="fill"
                             alt="Hero"
-                            style={(reversed) ? { transform: "scaleX(-1)" } : {}}
                         />
                     </div>
                 </div>

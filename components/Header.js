@@ -11,6 +11,7 @@ import {
 import { ChevronDownIcon, CogIcon, CurrencyDollarIcon, QuestionMarkCircleIcon, UserIcon as UserSolidIcon } from '@heroicons/react/solid'
 import TimelyBookButton from './TimelyBookButton'
 import Link from 'next/link'
+import Image from 'next/image'
 import WrappedImage from './WrappedImage'
 import Banner from './Banner'
 
@@ -105,16 +106,20 @@ export default function Header() {
                                             <a className="">
                                                 <span className="sr-only">Undo</span>
                                                 {(scrollTop) ? (
-                                                    <WrappedImage
+                                                    <Image
                                                         className="h-12 w-auto sm:h-12"
-                                                        src="img/undo_reversed_white.png"
+                                                        src="/img/undo_reversed_white.png"
                                                         alt=""
+                                                        width={85.33}
+                                                        height={48}
                                                     />
                                                 ) : (
-                                                    <WrappedImage
+                                                    <Image
                                                         className="h-12 w-auto sm:h-12"
-                                                        src="img/undo_reversed.png"
+                                                        src="/img/undo_reversed.png"
                                                         alt=""
+                                                        width={85.33}
+                                                        height={48}
                                                     />
                                                 )}
 

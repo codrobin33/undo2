@@ -1,7 +1,11 @@
-
+import Image from "next/image";
 
 const WrappedImage = ({ src, ...props }) => (
-    <img {...props} src={`${process.env.img_url}/${src}`} />
+    <Image
+        {...props}
+        src={`/${src}`}
+        layout="fill"
+    />
 );
 
 export default WrappedImage;

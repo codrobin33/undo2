@@ -10,5 +10,9 @@ module.exports = {
     env: {
         img_url: isProd ? '/undo2/' : ''
     },
-    trailingSlash: isProd ? true : false
+    trailingSlash: isProd ? true : false,
+    images: {
+        loader: 'imgix',
+        path: 'https://undo.imgix.net'
+    }
 };
