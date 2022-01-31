@@ -1,29 +1,29 @@
+import Image from "next/image";
 import { useCallback, useState, useMemo } from "react";
-import WrappedImage from "./WrappedImage";
 
 const list = [
     {
-        before: "img/skin_resurfacing_before.jpg",
+        before: "/img/skin_resurfacing_before.jpg",
         before_desc: 'Baseline',
-        after: "img/skin_resurfacing_after.jpg",
+        after: "/img/skin_resurfacing_after.jpg",
         after_desc: 'After 1 treatment'
     },
     {
-        before: "img/acne_before.jpg",
+        before: "/img/acne_before.jpg",
         before_desc: 'Baseline',
-        after: "img/acne_after.jpg",
+        after: "/img/acne_after.jpg",
         after_desc: 'After 5 treatment'
     },
     {
-        before: "img/tattoo_wing_before.jpg",
+        before: "/img/tattoo_wing_before.jpg",
         before_desc: 'Baseline',
-        after: "img/tattoo_wing_after.jpg",
+        after: "/img/tattoo_wing_after.jpg",
         after_desc: 'After 9 treatment'
     },
     {
-        before: "img/vascular_lesions_before.jpg",
+        before: "/img/vascular_lesions_before.jpg",
         before_desc: 'Baseline',
-        after: "img/vascular_lesions_after.jpg",
+        after: "/img/vascular_lesions_after.jpg",
         after_desc: 'After 9 treatment'
     }
 ];
@@ -86,10 +86,11 @@ export default function BeforeAfter() {
                     <div className="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
                         <div>
                             <div className="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-                                <WrappedImage
+                                <Image
                                     src={currentPage.before}
                                     alt=""
                                     className="w-full h-full object-center object-cover"
+                                    layout="fill"
                                 />
                             </div>
                             <p className="text-center text-base text-gray-500">
@@ -98,10 +99,11 @@ export default function BeforeAfter() {
                         </div>
                         <div>
                             <div className="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-                                <WrappedImage
+                                <Image
                                     src={currentPage.after}
                                     alt=""
                                     className="w-full h-full object-center object-cover"
+                                    layout="fill"
                                 />
                             </div>
                             <p className="text-center text-base text-gray-500">

@@ -11,7 +11,7 @@ const features = [
     {
         name: 'Skin Rejuvenation',
         description: 'Using non-invasive cosmetic procedures we can help you achieve all your wanted Skincare goals. Treatments include: Skin tightening, Cellulite reduction, Acne Scars, Sun damage, evening tones, reducing Wrinkles, and many more!',
-        href: '/skin_rejuvenation_treatments'
+        href: '/med_spa'
     },
     {
         name: 'Tattoo Removal',

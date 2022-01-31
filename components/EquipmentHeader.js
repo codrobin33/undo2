@@ -1,5 +1,5 @@
+import Image from "next/image";
 import TimelyBookButton from "./TimelyBookButton";
-import WrappedImage from "./WrappedImage";
 
 /* This example requires Tailwind CSS v2.0+ */
 export default function EquipmentHeader() {
@@ -26,56 +26,70 @@ export default function EquipmentHeader() {
                                     <div className="flex items-center space-x-6 lg:space-x-8">
                                         <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                                             <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
-                                                <WrappedImage
-                                                    src="img/nuera.png"
+                                                <Image
+                                                    src="/img/nuera.png"
                                                     alt=""
                                                     className="w-full h-full object-center  object-contain"
+                                                    width={176}
+                                                    height={256}
                                                 />
                                             </div>
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                <WrappedImage
-                                                    src="img/m22.png"
+                                                <Image
+                                                    src="/img/m22.png"
                                                     alt=""
                                                     className="w-full h-full object-center  object-contain"
+                                                    width={176}
+                                                    height={256}
                                                 />
                                             </div>
                                         </div>
                                         <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                <WrappedImage
-                                                    src="img/ResurFX.webp"
+                                                <Image
+                                                    src="/img/ResurFX.webp"
                                                     alt=""
                                                     className="w-full h-full object-center  object-contain"
+                                                    width={176}
+                                                    height={256}
                                                 />
                                             </div>
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                <WrappedImage
-                                                    src="img/piqo.jpg"
+                                                <Image
+                                                    src="/img/piqo.jpg"
                                                     alt=""
                                                     className="w-full h-full object-center object-contain"
+                                                    width={176}
+                                                    height={256}
                                                 />
                                             </div>
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                <WrappedImage
-                                                    src="img/ipl.webp"
+                                                <Image
+                                                    src="/img/ipl.webp"
                                                     alt=""
                                                     className="w-full h-full object-center object-contain"
+                                                    width={176}
+                                                    height={256}
                                                 />
                                             </div>
                                         </div>
                                         <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                <WrappedImage
-                                                    src="img/nuera_extra.webp"
+                                                <Image
+                                                    src="/img/nuera_extra.webp"
                                                     alt=""
                                                     className="w-full h-full object-center object-contain"
+                                                    width={176}
+                                                    height={256}
                                                 />
                                             </div>
                                             <div className="w-44 h-64 rounded-lg overflow-hidden">
-                                                <WrappedImage
-                                                    src="img/nuera.png"
+                                                <Image
+                                                    src="/img/nuera.png"
                                                     alt=""
                                                     className="w-full h-full object-center object-contain"
+                                                    width={176}
+                                                    height={256}
                                                 />
                                             </div>
                                         </div>

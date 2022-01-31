@@ -1,4 +1,4 @@
-import WrappedImage from "./WrappedImage";
+import Image from "next/image";
 
 const TattooDeviceInfo = () => {
     return (
@@ -91,11 +91,14 @@ const TattooDeviceInfo = () => {
                 </div>
                 <div className="mt-6 prose prose-2xl text-gray-500 mx-auto">
                     <div className="w-full">
-                        <figure className="m-auto md:float-left w-1/3 md:mr-4">
-                            <WrappedImage
+                        <figure className="m-auto md:float-left w-1/3 md:mr-4 relative">
+                            <Image
                                 className="w-full rounded-lg"
-                                src="img/piqo.jpg"
+                                src="/img/piqo.jpg"
                                 alt=""
+                                width={285}
+                                height={645}
+
                             />
                         </figure>
                         <h3>Meet the technology</h3>
@@ -115,11 +118,13 @@ const TattooDeviceInfo = () => {
                     <p className="text-xl leading-8">
                         Clinical studies have shown that the optimal method for shattering pigment particles is to treat them with both Nano and Picosecond laser pulses.
                     </p>
-                    <figure>
-                        <WrappedImage
+                    <figure className="relative">
+                        <Image
                             className="w-full rounded-lg"
-                            src="img/Rocks-To-Pebbles-To-Sand.png"
+                            src="/img/Rocks-To-Pebbles-To-Sand.png"
                             alt=""
+                            width={850}
+                            height={215}
                         />
                     </figure>
                     <p className="text-xl leading-8">
@@ -129,12 +134,14 @@ const TattooDeviceInfo = () => {
                     </p>
 
 
-                    <div className="w-full">
-                        <figure className="m-auto md:float-right w-1/3 md:ml-2">
-                            <WrappedImage
-                                className="w-full rounded-lg"
-                                src="img/PiQo4-Wheel.png"
+                    <div className="w-full relative">
+                        <figure className="m-auto md:float-right w-1/3 md:ml-2 ">
+                            <Image
+                                className="w-full h-auto rounded-lg relative"
+                                src="/img/PiQo4-Wheel.png"
                                 alt=""
+                                width={300}
+                                height={300}
                             />
                         </figure>
 

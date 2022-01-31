@@ -1,4 +1,4 @@
-import WrappedImage from "./WrappedImage";
+import Image from "next/image";
 
 
 const RadioFrequencyComponent = () => {
@@ -134,9 +134,9 @@ const RadioFrequencyComponent = () => {
                     </p>
 
                     <figure>
-                        <WrappedImage
+                        <Image
                             className="w-full rounded-lg bg-indigo-800 max-w-prose mx-auto"
-                            src="img/nuera.png"
+                            src="/img/nuera.png"
                             alt=""
                             width={1310}
                             height={873}

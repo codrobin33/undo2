@@ -23,11 +23,11 @@ export default function SkinCareProducts() {
             <div className="bg-gray-50">
                 <Header />
 
-                <div className="max-w-7xl mx-auto bg-white">
+                <div className="max-w-7xl mx-auto bg-white relative">
                     <TextImageHeader src="img/products.jpg" />
                     <Transition />
 
-                    <div className="space-y-4">
+                    <div className="space-y-4 relative">
                         <ProductDescriptions />
 
                         <ProductLogoCloud />

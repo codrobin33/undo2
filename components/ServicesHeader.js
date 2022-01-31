@@ -1,4 +1,4 @@
-import WrappedImage from "./WrappedImage";
+import Image from "next/image";
 
 /* This example requires Tailwind CSS v2.0+ */
 const ServicesHeader = () => {
@@ -9,10 +9,11 @@ const ServicesHeader = () => {
                     <div className="relative w-full h-full bg-gray-900/10 bg-gradient-to-b from-gray-900/50 via-gray-900/20 to-gray-900 z-10" />
 
                     <div className="h-full w-full">
-                        <WrappedImage
+                        <Image
                             className="absolute top-0 h-full w-full object-cover"
-                            src="img/oranges.jpg"
+                            src="/img/oranges.jpg"
                             alt=""
+                            layout="fill"
                         />
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-import WrappedImage from "./WrappedImage";
+import Image from "next/image";
 
 const Acne = () => {
     return (
@@ -83,11 +83,13 @@ const Acne = () => {
                 </div>
                 <div className="mt-6 prose prose-2xl text-gray-500 mx-auto">
                     <div className="w-full">
-                        <figure className="m-auto md:float-left w-1/3 md:mr-4 mb-2">
-                            <WrappedImage
+                        <figure className="m-auto md:float-left w-1/3 md:mr-4 mb-2 relative">
+                            <Image
                                 className="w-full rounded-lg"
-                                src="img/mask.jpg"
+                                src="/img/mask.jpg"
                                 alt=""
+                                width={300}
+                                height={200}
                             />
                         </figure>
                         <h3>Teenage, adult or wearing a mask</h3>
@@ -100,11 +102,13 @@ const Acne = () => {
                     <p className="text-xl leading-8">
                         If you've tried over-the-counter (nonprescription) acne products designed to clear skin become clogged with oil, dirt, and bacteria for several weeks and they haven't helped, it may be time to look into professional acne treatments to make your skin brighter and clearer without the potential collateral damage of prescribed medications.
                     </p>
-                    <figure className="m-auto md:float-right w-1/3">
-                        <WrappedImage
+                    <figure className="m-auto md:float-right w-1/3 relative">
+                        <Image
                             className="w-full rounded-lg"
-                            src="img/medications.jpg"
+                            src="/img/medications.jpg"
                             alt=""
+                            width={300}
+                            height={200}
                         />
                     </figure>
                     <h3>Medications</h3>

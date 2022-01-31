@@ -12,7 +12,6 @@ import { ChevronDownIcon, CogIcon, CurrencyDollarIcon, QuestionMarkCircleIcon, U
 import TimelyBookButton from './TimelyBookButton'
 import Link from 'next/link'
 import Image from 'next/image'
-import WrappedImage from './WrappedImage'
 import Banner from './Banner'
 
 const tattoos = [
@@ -294,10 +293,11 @@ export default function Header() {
                                         <div className="pt-5 pb-6 px-5">
                                             <div className="flex items-center justify-between">
                                                 <div>
-                                                    <WrappedImage
+                                                    <Image
                                                         className="h-8 w-auto"
                                                         src="/img/Undo_psdraw.jpg"
                                                         alt="Workflow"
+                                                        layout="fill"
                                                     />
                                                 </div>
                                                 <div className="-mr-2">

@@ -1,4 +1,4 @@
-import WrappedImage from "./WrappedImage";
+import Image from "next/image";
 
 /* This example requires Tailwind CSS v2.0+ */
 const Testimonial = () => {
@@ -53,10 +53,12 @@ const Testimonial = () => {
 
                 <div className="relative lg:flex lg:items-center">
                     <div className="hidden lg:block lg:flex-shrink-0">
-                        <WrappedImage
+                        <Image
                             className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-                            src="img/cass.jpg"
+                            src="/img/cass.jpg"
                             alt=""
+                            width={320}
+                            height={320}
                         />
                     </div>
 
@@ -85,10 +87,12 @@ const Testimonial = () => {
                             <footer className="mt-8">
                                 <div className="flex">
                                     <div className="flex-shrink-0 lg:hidden">
-                                        <WrappedImage
-                                            className="h-12 w-12 rounded-full"
-                                            src="img/cass.jpg"
+                                        <Image
+                                            className="rounded-full"
+                                            src="/img/cass.jpg"
                                             alt=""
+                                            width={48}
+                                            height={48}
                                         />
                                     </div>
                                     <div className="ml-4 lg:ml-0">

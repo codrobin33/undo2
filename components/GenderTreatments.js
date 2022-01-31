@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { FireIcon, LightBulbIcon, SparklesIcon } from '@heroicons/react/outline'
-import WrappedImage from './WrappedImage'
+import Image from 'next/image'
 
 const for_her = [
     {
@@ -132,7 +132,7 @@ const GenderTreatments = () => {
                         </dl>
                     </div>
 
-                    <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
+                    <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true" >
                         <svg
                             className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
                             width={784}
@@ -154,11 +154,12 @@ const GenderTreatments = () => {
                             </defs>
                             <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
                         </svg>
-                        <WrappedImage
-                            className="relative mx-auto rounded-3xl shadow-2xl"
-                            width={490}
-                            src="img/for_her.jpg"
+                        <Image
+                            className="relative mx-auto rounded-3xl"
+                            src="/img/for_her.jpg"
                             alt=""
+                            width={624}
+                            height={624}
                         />
                     </div>
                 </div>
@@ -232,10 +233,11 @@ const GenderTreatments = () => {
                                 </defs>
                                 <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
                             </svg>
-                            <WrappedImage
-                                className="relative mx-auto rounded-3xl shadow-2xl"
-                                width={490}
-                                src="img/for_him.jpg"
+                            <Image
+                                className="relative mx-auto rounded-3xl"
+                                width={624}
+                                height={624}
+                                src="/img/for_him.jpg"
                                 alt=""
                             />
                         </div>

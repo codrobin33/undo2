@@ -3,8 +3,7 @@ import { useStopwatch } from "react-timer-hook";
 import Link from "next/link";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
-import { ChevronRightIcon, PlayIcon } from "@heroicons/react/outline";
-import WrappedImage from "./WrappedImage";
+import { ChevronRightIcon } from "@heroicons/react/outline";
 import TimelyBookButton from "./TimelyBookButton";
 
 const HEADLINES = [
