@@ -1,12 +1,12 @@
 import Head from 'next/head';
 
-import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Imports from '../components/Imports';
-import InfoCTA from '../components/InfoCTA';
 import Contact from '../components/Contact';
 import EquipmentHeader from '../components/EquipmentHeader';
+import Transition from '../components/Transition';
+import TextImageHeader from '../components/TextImageHeader';
 
 export default function Equipment() {
     return (
@@ -16,15 +16,18 @@ export default function Equipment() {
             </Head>
 
             <div className="bg-gray-50">
-                <Banner />
                 <Header />
 
-                <div className="max-w-7xl mx-auto space-y-4 bg-white">
-                    <EquipmentHeader />
+                <div className="max-w-7xl mx-auto bg-white">
 
-                    <InfoCTA />
+                    <TextImageHeader src="img/chair.jpg" />
+                    <Transition />
 
-                    <Contact />
+                    <div className="space-y-4">
+
+                        <EquipmentHeader />
+                        <Contact />
+                    </div>
                     <Footer />
 
                 </div>

@@ -1,6 +1,5 @@
 import Head from 'next/head';
 
-import Banner from '../components/Banner';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -8,6 +7,7 @@ import Imports from '../components/Imports';
 import InfoCTA from '../components/InfoCTA';
 import ServicesHeader from '../components/ServicesHeader';
 import ServicesList from '../components/ServicesList';
+import Transition from '../components/Transition';
 
 export default function Home() {
     return (
@@ -20,15 +20,17 @@ export default function Home() {
             </Head>
 
             <div className="bg-gray-50">
-                <Banner />
                 <Header />
 
-                <div className="max-w-7xl mx-auto space-y-4 bg-white">
+                <div className="max-w-7xl mx-auto bg-white">
 
                     <ServicesHeader />
-                    <ServicesList />
-                    <InfoCTA />
-                    <Contact />
+                    <Transition />
+
+                    <div className="space-y-4">
+                        <ServicesList />
+                        <Contact />
+                    </div>
 
                     <Footer />
 

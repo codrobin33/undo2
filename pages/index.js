@@ -1,6 +1,5 @@
 import Head from 'next/head';
 
-import Banner from '../components/Banner';
 import BeforeAfter from '../components/BeforeAfter';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
@@ -8,11 +7,12 @@ import GenderTreatments from '../components/GenderTreatments';
 import Header from '../components/Header';
 import Imports from '../components/Imports';
 import InfoCTA from '../components/InfoCTA';
-import MainHero from '../components/MainHero';
 import MiniCTA from '../components/MiniCTA';
 import RadioFrequencyCTA from '../components/RadioFrequencyCTA';
 import ServicesShortList from '../components/ServicesList';
 import Testimonial from '../components/Testimonial';
+import TextImageHeader from '../components/TextImageHeader';
+import Transition from '../components/Transition';
 
 export default function Home() {
   return (
@@ -25,21 +25,22 @@ export default function Home() {
       </Head>
 
       <div className="bg-gray-50">
-        <Banner />
         <Header />
 
-        <div className="max-w-7xl mx-auto space-y-4 bg-white">
+        <div className="max-w-7xl mx-auto bg-white relative overflow-hidden">
+          <TextImageHeader reversed />
+          <Transition />
 
-          <MainHero />
-          <MiniCTA />
-          <ServicesShortList />
-          <BeforeAfter
-          />
-          <RadioFrequencyCTA />
-          <GenderTreatments />
-          <InfoCTA />
-          <Testimonial />
-          <Contact />
+          <div className="space-y-4">
+            <ServicesShortList />
+            <MiniCTA />
+            <BeforeAfter />
+            <RadioFrequencyCTA />
+            <GenderTreatments />
+            <InfoCTA />
+            <Testimonial />
+            <Contact />
+          </div>
 
           <Footer />
 

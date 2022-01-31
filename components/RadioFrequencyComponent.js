@@ -145,19 +145,6 @@ const RadioFrequencyComponent = () => {
                     </figure>
 
                     <h2>What Are My Options?</h2>
-                    <h2>InMode Contoura</h2>
-                    <p>
-                        This non-invasive body contouring treatment suctions the skin in the treatment zone and then applies RF energy and heat to the
-                        cells. Once undesirable cells are heated to the desired temperature, Contoura delivers several energy pulses to destroy those
-                        cells. They stay in the body but are disposed of naturally.
-                    </p>
-
-                    <h2>Venus Legacy</h2>
-                    <p>
-                        This treatment features a handheld device that is moved over the desired area. When the device is moved on the skin, undesirable
-                        cells are heated, causing them to shrink. Simultaneously, the heat stimulates collagen production to tighten your skin. This
-                        technique shows fast results, but the best results come after six to eight sessions.
-                    </p>
 
                     <h2>What Should I Expect?</h2>
                     <p>

@@ -13,7 +13,7 @@ export default function SkinRejuvenationTreatments() {
             <Head>
                 <Imports
                     metaTitle="Skin Rejuvenation Treatments and Services"
-                    description="Treatments include: Skin tightening, Cellulite reduction, Acen Scars, Wrinkles, Collagen, Oxygeneo Hydrating, Botox, and many more!"
+                    description="Treatments include: Skin tightening, Cellulite reduction, Acne Scars, Wrinkles, Collagen, Oxygeneo Hydrating, Botox, and many more!"
                 />
             </Head>
 

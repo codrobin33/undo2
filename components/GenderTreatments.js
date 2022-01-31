@@ -6,22 +6,42 @@ const for_her = [
     {
         id: 1,
         name: 'Skin Rejuvenation',
-        description:
-            'Photofractional™ is a complete skin rejuvenation solution that addresses even the earliest signs of aging. It offers noticeable results for pigmentation, age/sun spots, texture, and overall skin appearance.',
+        description: (
+            <>
+                Using our technologies, our staff delivers remarkable results on a range of skin aging concerns such as
+                age/sun spots, vascular lesions, Acne and Acne scars, uneven texture, wrinkles and skin tone.
+
+                <br />
+                <br />
+                For relaxation and pampering, our staff delivers the most popular spa treatments to improve your
+                appearance; chemical peels, exfoliating facials, dermaplaning, micro-current, jelly mask, massage and
+                much more.
+            </>
+        ),
         icon: SparklesIcon,
     },
     {
         id: 2,
-        name: 'Sun Spots / Uneven Tones',
-        description:
-            'This treatment is a complete skin rejuvenation solution. Out technology delivers remarkable results on a range of skin aging concerns such as age and sun spots, vascular lesions, uneven texture and skin tone.',
+        name: 'Hair Removal',
+        description: (
+            <>
+                Safe, non-invasive treatment that permanently reduces hair growth, resulting in smooth, beautiful skin.
+                Our unique IPL (Intense Pulsed Light) technology targets the hair follicles, and impairs their ability to
+                grow hair.
+            </>
+        ),
         icon: FireIcon,
     },
     {
         id: 3,
-        name: 'Hair Removal',
-        description:
-            'Safe, non-invasive treatment that permanently reduces hair growth, resulting in smooth, beautiful skin. Our unique IPL (Intense Pulsed Light) technology targets the hair follicles, and impairs their ability to grow hair.',
+        name: 'Stretch Marks/Scars',
+        description: (
+            <>
+                A non-invasive laser treatment will help you regain smooth skin and minimize the appearance of stretch
+                marks and a variety of causes of scars on different areas of your body, including pregnancy, Acne, and
+                weight loss.
+            </>
+        ),
         icon: LightBulbIcon,
     },
 ]
@@ -29,15 +49,25 @@ const for_him = [
     {
         id: 1,
         name: 'Skin Rejuvenation',
-        description:
-            'This fractional, non-ablative skin rejuvenation treatment stimulates the production of new collagen and elastic fibers in the deeper layers of the skin.',
+        description: (
+            <>
+                By using our technologies, our staff delivers remarkable results on a range of skin aging concerns unique
+                to men, such as age/sun spots, Rosacea or vascular lesions, Acne and Acne scars, large pours, wrinkles
+                and skin tone.
+            </>
+        ),
         icon: SparklesIcon,
     },
     {
         id: 2,
         name: 'Hair Removal',
-        description:
-            'Safe, non-invasive treatment that permanently reduces hair growth, resulting in smooth, beautiful skin. Our unique IPL (Intense Pulsed Light) technology targets the hair follicles, and impairs their ability to grow hair.',
+        description: (
+            <>
+                Safe, non-invasive treatment that permanently reduces hair growth, resulting in smooth, beautiful skin.
+                Our unique IPL (Intense Pulsed Light) triple pulse technology targets the course and dense hair follicles,
+                and impairs their ability to grow hair, with minimal discomfort.
+            </>
+        ),
         icon: LightBulbIcon,
     },
 ]
@@ -84,7 +114,7 @@ const GenderTreatments = () => {
                             Treatments for her
                         </h3>
                         <p className="mt-3 text-lg text-gray-500">
-                            Let us get your to those goals through services such as Skin Rejuvenation, Hair Removal and much much more.
+                            Let us get your to those goals through services such as Skin Rejuvenation, Hair Removal and much more.
                         </p>
 
                         <dl className="mt-10 space-y-10">

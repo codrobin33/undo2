@@ -61,7 +61,7 @@ const TattooPricing = () => {
                         <div className="prose prose-indigo prose-lg text-gray-500 lg:max-w-none">
                             <p className="mt-8 text-xl text-gray-500 leading-8">
                                 So you're ready to remove your tattoo, but you’re worried about the cost of treatments? Don’t turn down
-                                tattoo removal treatments because of the price! Undo Laser Skincare Clinic provides treatments designed
+                                tattoo removal treatments because of the price! Undo Skincare Center provides treatments designed
                                 to fit anyone's budget!
                             </p>
 
@@ -72,34 +72,45 @@ const TattooPricing = () => {
                             </div>
 
                             <p>
-                                Tattoo removal is actually more affordable than you think! There are several factors that determine how
-                                much it will cost to remove your tattoo. Dermatologists and skin experts categorized these factors and
-                                identified three major elements that will determine how much it will cost.
+                                Tattoo removal is actually more affordable than you think! We categorized several factors and
+                                identified major elements in determining the cost to remove your tattoo. Each of the factors are discussed during your consultation and post treatment recommendation are
+                                provided on how you can contribute to a quicker removal process, and potentially reduce the number of
+                                treatments needed.
                             </p>
 
                             <h3>Size:</h3>
                             <p>
-                                Size is the number one factor in determining how much it will cost to remove your tattoo. Undo Laser Skincare
-                                Center measures tattoos in compressed ink square inches, and we charge per square inch to remove a tattoo.
+                                Size, small, medium, large or extra-large is the primary factor.
                             </p>
                             <h3>Location:</h3>
                             <p>
-                                Where your tattoo is matters when determining the cost of removal. If your tattoo is in a sensitive location,
-                                session times will be reduced to prevent an adverse reaction or damage to the outer layer of your skin. This will
-                                increase the number of sessions needed to completely remove the tattoo.
+                                Where on your body, chest, arm, leg, back, foot, or face, the tattoo is located may increase the number
+                                of sessions needed.
                             </p>
                             <h3>Quality:</h3>
                             <p>
-                                Quality of the tattoo pertains to the color, design, density or thickness, and the type of ink used in your tattoo.
-                                Laser tattoo removal is more successful on darker shades such as black, dark blue, and red but lighter shades
-                                such as orange, yellow, and green take longer to remove which increases the number of sessions needed. In addition,
-                                more detailed designs take longer. Density refers to the type of pigment used in a tattoo and how thick the ink is.
-                                Thicker pigments require more work from the laser to break down and the body's immune system has to work harder to
-                                remove the broken particles.
+                                Quality of the tattoo pertains to the design, density or thickness, skill of the artist, and the type of ink
+                                used in the tattoo may require more additional sessions to break down the ink particles.
+                            </p>
+                            <h3>Colors:</h3>
+                            <p>
+                                Green, blue, purple, orange and other ink colors increase the number of sessions needed over just black.
+                            </p>
+                            <h3>Age:</h3>
+                            <p>
+                                Newer ink, less than a couple years old, may be more difficult and require additional sessions.
+                            </p>
+                            <h3>Lymphatic Health:</h3>
+                            <p>
+                                Your body's immune system has to work hard to remove the broken ink particles. Some life style choices
+                                increase the number of sessions needed.
                             </p>
 
-                            <div className="text-center text-2xl max-w-lg m-auto font-semibold text-black">
-                                Pricing starting at $129 per square inch of compressed ink.
+
+
+                            <div className="text-center text-2xl max-w-2xl m-auto font-semibold text-black">
+                                During your consultation, the number of estimated treatments and the cost for tattoo removal
+                                will be discussed. Pricing starts at $139 per session for small area treatment package.
                             </div>
 
 

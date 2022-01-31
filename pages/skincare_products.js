@@ -9,6 +9,8 @@ import InfoCTA from '../components/InfoCTA';
 import ProductLogoCloud from '../components/ProductLogoCloud';
 import ProductDescriptions from '../components/ProductDescriptions';
 import ProductHeader from '../components/ProductHeader';
+import TextImageHeader from '../components/TextImageHeader';
+import Transition from '../components/Transition';
 
 export default function SkinCareProducts() {
     return (
@@ -21,18 +23,20 @@ export default function SkinCareProducts() {
             </Head>
 
             <div className="bg-gray-50">
-                <Banner />
                 <Header />
 
-                <div className="max-w-7xl mx-auto space-y-4 bg-white">
+                <div className="max-w-7xl mx-auto bg-white">
+                    <TextImageHeader src="img/products.jpg" />
+                    <Transition />
 
-                    <ProductHeader />
-                    <ProductDescriptions />
+                    <div className="space-y-4">
+                        <ProductDescriptions />
 
-                    <ProductLogoCloud />
+                        <ProductLogoCloud />
 
-                    <InfoCTA />
-                    <Contact />
+                        <InfoCTA />
+                        <Contact />
+                    </div>
                     <Footer />
 
                 </div>

@@ -92,7 +92,7 @@ const Testimonial = () => {
                                         />
                                     </div>
                                     <div className="ml-4 lg:ml-0">
-                                        <div className="text-base font-medium text-gray-900">Cassandra Robinson</div>
+                                        <div className="text-base font-medium text-gray-900">Cassandra R</div>
                                     </div>
                                 </div>
                             </footer>

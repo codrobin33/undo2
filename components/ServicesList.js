@@ -5,38 +5,33 @@ import Link from 'next/link';
 const features = [
     {
         name: 'RF Body Contouring',
-        description: 'Radiofrequency body contouring tightens the skin, removes fat and improves tone without any downtime or pain at all.',
+        description: 'Radiofrequency body contouring tightens the skin, removes fat and improves tone without any downtime or discomfort.',
         href: '/radiofrequency'
     },
     {
-        name: 'Skin Rejuvenation Treatments',
-        description: 'Treatments include: Skin tightening, Cellulite reduction, Acen Scars, Wrinkles, Collagen, Oxygeneo Hydrating, Botox, and many more!',
+        name: 'Skin Rejuvenation',
+        description: 'Using non-invasive cosmetic procedures we can help you achieve all your wanted Skincare goals. Treatments include: Skin tightening, Cellulite reduction, Acne Scars, Sun damage, evening tones, reducing Wrinkles, and many more!',
         href: '/skin_rejuvenation_treatments'
     },
     {
-        name: 'Skincare Products',
-        description: 'We carry many product lines including EltaMD, Revision, Elixier and iS CLINICAL.',
-        href: '/skincare_products'
-    },
-    {
-        name: 'Tattoo Removals',
+        name: 'Tattoo Removal',
         description: 'We can help with full tattoo removals or area lightening for that next tattoo!',
         href: '/tattoo'
+    },
+    {
+        name: 'Acne Treatments',
+        description: 'The latest in non-ablative, fractional laser technology to improve skin discoloration, stretch marks, acne scars and wrinkles.',
+        href: '/acne'
+    },
+    {
+        name: 'Skincare Products',
+        description: 'We carry many product lines including EltaMD, Revision, Elixir and iS CLINICAL.',
+        href: '/skincare_products'
     },
     {
         name: 'Equipment',
         description: 'We have all the latest tech for whatever you skincare need is. Find out how we are leading Kansas City Skincare technology scene.',
         href: '/equipment'
-    },
-    {
-        name: 'Aesthetic Treatments',
-        description: 'Using non-invasive cosmetic procedures we can help you achieve all your wanted Skincare goals.',
-        href: '/med_spa'
-    },
-    {
-        name: 'Acne Treatments',
-        description: 'The latest in non-ablative, fractional laser technology to improve skin discoloration, stretch marks, acne scars and wrinkles.',
-        href: '/med_spa#acne'
     }
 ];
 
@@ -47,13 +42,13 @@ const ServicesShortList = () => {
                 <svg className="hidden lg:block absolute right-full transform translate-x-2/3 translate-y-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true"><defs><pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="4" height="4" className="text-gray-200" fill="currentColor"></rect></pattern></defs><rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"></rect></svg>
                 <div>
                     <h2 className="text-base font-semibold text-indigo-600 uppercase tracking-wide">Everything you need</h2>
-                    <p className="mt-2 text-3xl font-extrabold text-gray-900">For great Skincare</p>
+                    <p className="mt-2 text-3xl font-extrabold text-gray-900">For great Skin</p>
                     <p className="mt-4 text-lg text-gray-500">
                         Our team is here to help you look and feel your best. Let us Undo those unwanted skin changes.
                     </p>
                 </div>
                 <div className="mt-12 lg:mt-0 lg:col-span-2">
-                    <dl className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-4 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
+                    <dl className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:grid-rows-3 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
                         {features.map((feature) => (
                             <div key={feature.name} className="relative">
                                 <dt>

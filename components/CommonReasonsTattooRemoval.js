@@ -6,10 +6,12 @@ const CommonReasonsTattooRemoval = () => {
         <div className="max-w-3xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8" id="reasons">
             <div className="relative">
                 <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    A better way to heal
+                    Common reasons for tattoo removal
                 </h2>
                 <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-                    Your plan is a hand created approach to healing and prevention. You can expect the complete package of innovative sciences and technologies to create a highly stimulating environment to re-energize.
+                    Tattoos are meant to be a form of self-expression and while initially you may have been excited about
+                    your tattoo, people and feelings change. If this sounds like you, we have a solution to your "permanent
+                    ink!"
                 </p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 justify-center mt-5">

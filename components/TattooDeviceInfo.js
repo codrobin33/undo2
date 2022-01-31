@@ -71,15 +71,17 @@ const TattooDeviceInfo = () => {
                 </div>
             </div>
             <div className="relative px-4 sm:px-6 lg:px-8">
-                <div className="text-lg max-w-prose mx-auto">
-                    <h1>
-                        <span className="block text-base text-center text-indigo-700 font-semibold tracking-wide uppercase">
-                            meet the technology
-                        </span>
-                        <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                            How it works
-                        </span>
-                    </h1>
+                <div className="prose prose-2xl mx-auto">
+                    <div className="w-full">
+                        <h1>
+                            <span className="block text-base text-center text-indigo-700 font-semibold tracking-wide uppercase">
+                                meet the technology
+                            </span>
+                            <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+                                How it works
+                            </span>
+                        </h1>
+                    </div>
                     <p className="mt-8 text-xl text-gray-500 leading-8">
                         Pulses of high-intensity laser light remove your tattoo by breaking up the tattoo ink into extremely small particles.
                         Your immune system’s white blood cells fight off the ink particles, and are naturally carried out of the body, resulting
@@ -87,17 +89,17 @@ const TattooDeviceInfo = () => {
                         devices that can safely remove tattoos efficiently regardless of skin color or skin type.
                     </p>
                 </div>
-                <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+                <div className="mt-6 prose prose-2xl text-gray-500 mx-auto">
                     <div className="w-full">
-                        <figure className="m-auto md:float-left w-1/3 md:mr-2">
+                        <figure className="m-auto md:float-left w-1/3 md:mr-4">
                             <WrappedImage
                                 className="w-full rounded-lg"
                                 src="img/piqo.jpg"
                                 alt=""
                             />
                         </figure>
-                        <h2>Meet the technology</h2>
-                        <p >
+                        <h3>Meet the technology</h3>
+                        <p className="text-xl leading-8">
                             At <strong>Undo Skincare Center</strong>, we use the most advanced technology in the Midwest to make the tattoo process easy and painless!
                             The Lumenis PiQo4 laser is the new gold standard for producing excellent laser tattoo removal outcomes. PiQo4 treats a wide
                             range of pigment colors and its versatile energy matrix ensures effective shattering of pigment deposits. It also has the
@@ -109,8 +111,8 @@ const TattooDeviceInfo = () => {
                         </p>
                     </div>
 
-                    <h2>Pico+Nano for doubly effective treatment</h2>
-                    <p>
+                    <h3>Pico+Nano for doubly effective treatment</h3>
+                    <p className="text-xl leading-8">
                         Clinical studies have shown that the optimal method for shattering pigment particles is to treat them with both Nano and Picosecond laser pulses.
                     </p>
                     <figure>
@@ -120,7 +122,7 @@ const TattooDeviceInfo = () => {
                             alt=""
                         />
                     </figure>
-                    <p>
+                    <p className="text-xl leading-8">
                         First, the Nanosecond pulses are used to deliver short bursts of energy that break down the larger and deeper pigment or ink particles.
                         Then, the area is rescanned with Picosecond pulses that dismantle the smaller and shallower particles. This combination yields far better results
                         than using either one of the technologies on its own.
@@ -128,7 +130,7 @@ const TattooDeviceInfo = () => {
 
 
                     <div className="w-full">
-                        <figure className="m-auto md:float-right w-1/3 md:mr-2">
+                        <figure className="m-auto md:float-right w-1/3 md:ml-2">
                             <WrappedImage
                                 className="w-full rounded-lg"
                                 src="img/PiQo4-Wheel.png"
@@ -136,8 +138,8 @@ const TattooDeviceInfo = () => {
                             />
                         </figure>
 
-                        <h2>4 Wavelengths – For effective shattering of the most popular pigment/ink colors</h2>
-                        <p >
+                        <h3>4 Wavelengths – For effective shattering of the most popular pigment/ink colors</h3>
+                        <p className="text-xl leading-8">
                             Since each pigment color absorbs a specific wavelength, PiQo4 offers 4 wavelengths in order to treat the broadest range of pigment/tattoo
                             colors, on the widest range of skin types. Its four wavelengths – 1064nm, 532nm, 650nm and 585nm – target 9 of the most frequently used
                             tattoo colors ranging from light orange to dark black. With PiQo4 you can erase the rainbow.

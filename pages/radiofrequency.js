@@ -9,6 +9,7 @@ import MiniCTA from '../components/MiniCTA';
 import RadioFrequencyComponent from '../components/RadioFrequencyComponent';
 import ImageHeader from '../components/ImageHeader';
 import Imports from '../components/Imports';
+import Transition from '../components/Transition';
 
 export default function RadioFrequency() {
     return (
@@ -23,16 +24,19 @@ export default function RadioFrequency() {
             <div className="bg-gray-50">
                 <Banner />
                 <Header />
-
-                <div className="max-w-7xl mx-auto space-y-4 bg-white">
+                <div className="max-w-7xl mx-auto bg-white">
 
                     <ImageHeader />
+                    <Transition />
 
-                    <RadioFrequencyComponent />
+                    <div className="space-y-4">
 
-                    <MiniCTA />
+                        <RadioFrequencyComponent />
 
-                    <Contact />
+                        <MiniCTA />
+
+                        <Contact />
+                    </div>
 
                     <Footer />
 
