@@ -17,11 +17,11 @@ const HEADLINES = [
 ];
 
 function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
+    return classes.filter(Boolean).join(' ');
 }
 
 const TextImageHeader = ({
-    src = '/img/acne_slider1.jpg',
+    src = '/img/smile.jpg',
     reversed = false
 }) => {
     const [line, setLine] = useState(0);
@@ -43,9 +43,9 @@ const TextImageHeader = ({
 
     return (
         <div className="relative">
-            <div className="bg-gray-900 pt-24 lg:pt-24 lg:pb-20">
+            <div className="bg-gray-800 pt-24 lg:pt-24 lg:pb-20">
                 <div className="absolute top-0 h-full w-full overflow-hidden">
-                    <div className="relative w-full h-full bg-gray-900/10 bg-gradient-to-b from-gray-900/50 via-gray-900/20 to-gray-900 z-10" />
+                    <div className="relative w-full h-full bg-gray-800/10 bg-gradient-to-b from-gray-800/50 via-gray-800/20 to-gray-800 z-10" />
 
                     <div className="h-full w-full absolute top-0">
                         <div className="relative w-full h-full">
@@ -101,10 +101,10 @@ const TextImageHeader = ({
 
                                 </h1>
                                 <p className="text-white text-lg sm:text-2xl font-bold drop-shadow-2xl hidden md:block">
-                                    At Undo Skincare Center, Tattoo Removal and Day Med Spa, we want you to look and feel your best. Our team are experts here to provide a customized treatment plan to help you get there!
+                                    At Undo Skincare Center we want you to look and feel your best.  Our team of experts in skincare, tattoo removal and med spa services are here to provide your customized treatment plan
                                 </p>
                                 <p className="text-white text-lg sm:text-2xl font-bold drop-shadow-2xl block md:hidden">
-                                    At Undo Skincare Center, Tattoo Removal and Day Med Spa, we want you to look and feel your best.
+                                    At Undo Skincare Center we want you to look and feel your best.
                                 </p>
                                 <div className="mt-10 sm:mt-12">
                                     <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">

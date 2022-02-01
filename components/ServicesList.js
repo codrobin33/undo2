@@ -30,7 +30,7 @@ const features = [
     },
     {
         name: 'Equipment',
-        description: 'We have all the latest tech for whatever you skincare need is. Find out how we are leading Kansas City Skincare technology scene.',
+        description: 'We have all the latest tech for whatever your skincare need is. Find out how we are leading the Kansas City Skincare technology scene.',
         href: '/equipment'
     }
 ];

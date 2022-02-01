@@ -45,11 +45,11 @@ const Transition = () => {
 
     return (
         <div className="relative ">
-            <div className="bg-gray-900 text-white w-full">
+            <div className="bg-gray-800 text-white w-full">
                 <Perks />
             </div>
             <div className="bg-white -mt-5  md:-mt-20 -mb-10 md:-mb-16">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#111827" fillOpacity="1" d="M0,256L60,250.7C120,245,240,235,360,208C480,181,600,139,720,117.3C840,96,960,96,1080,112C1200,128,1320,160,1380,176L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1F2937" fillOpacity="1" d="M0,256L60,250.7C120,245,240,235,360,208C480,181,600,139,720,117.3C840,96,960,96,1080,112C1200,128,1320,160,1380,176L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
             </div>
         </div>
     );
