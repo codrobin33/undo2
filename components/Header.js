@@ -92,14 +92,14 @@ export default function Header() {
         <header className="fixed inset-x-0 top-0 z-50">
             <div className="absolute w-full">
                 <Popover as="header" className={classNames(
-                    "sticky top-0 z-40 w-full  flex-none transition-colors duration-300 lg:z-50 lg:border-b lg:border-gray-900/10 border-gray-50/[0.06] pb-4",
+                    "sticky top-0 z-40 w-full  flex-none transition-colors duration-300 lg:z-50 lg:border-b lg:border-gray-900/10 border-gray-50/[0.06] md:pb-4",
                     !scrollTop ? 'bg-white backdrop-blur' : 'border-none bg-gradient-to-b from-black/50'
                 )}>
                     {({ open }) => (
                         <>
                             <Banner />
                             <div className="px-4 sm:px-6 max-w-7xl mx-auto">
-                                <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+                                <div className="flex justify-between items-center py-2 md:py-6 md:justify-start md:space-x-10">
                                     <div className="flex justify-start lg:w-0 lg:flex-1 cursor-pointer">
                                         <Link href="/" passHref>
                                             <a className="">
@@ -126,7 +126,11 @@ export default function Header() {
                                         </Link>
                                     </div>
                                     <div className="-mr-2 -my-2 md:hidden">
-                                        <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-white hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                        <Popover.Button className={classNames(
+                                            "rounded-md p-2 inline-flex items-center justify-center hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500",
+                                            scrollTop ? 'text-white' : 'text-gray-500'
+                                        )}
+                                        >
                                             <span className="sr-only">Open menu</span>
                                             <MenuIcon className="h-6 w-6" aria-hidden="true" />
                                         </Popover.Button>
@@ -297,7 +301,8 @@ export default function Header() {
                                                         className="h-8 w-auto"
                                                         src="/img/Undo_psdraw.jpg"
                                                         alt="Workflow"
-                                                        layout="fill"
+                                                        width={60}
+                                                        height={35}
                                                     />
                                                 </div>
                                                 <div className="-mr-2">

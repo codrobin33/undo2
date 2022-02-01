@@ -47,16 +47,20 @@ const TextImageHeader = ({
                 <div className="absolute top-0 h-full w-full overflow-hidden">
                     <div className="relative w-full h-full bg-gray-900/10 bg-gradient-to-b from-gray-900/50 via-gray-900/20 to-gray-900 z-10" />
 
-                    <div className="h-full w-full">
-                        <Image
-                            src={src}
-                            className={classNames(
-                                "absolute top-0 h-full w-full",
-                                reversed && '-scale-x-100'
-                            )}
-                            layout="fill"
-                            alt="Hero"
-                        />
+                    <div className="h-full w-full absolute top-0">
+                        <div className="relative w-full h-full">
+                            <Image
+                                src={src}
+                                className={classNames(
+                                    "top-0 h-full w-full",
+                                    reversed && '-scale-x-100'
+                                )}
+                                layout="fill"
+                                alt="Hero"
+                                objectFit="cover"
+                                priority
+                            />
+                        </div>
                     </div>
                 </div>
 
