@@ -4,7 +4,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { PhoneIcon, MailIcon } from '@heroicons/react/solid';
 
 const Banner = () => (
-    <div className="relative bg-indigo-600">
+    <div className="relative bg-indigo-700">
         <div className="w-full py-2 px-3 sm:px-6 lg:px-8">
             <div className="flex flex-row-reverse font-medium text-white">
                 <a href="https://www.facebook.com/undotoday" className="flex items-center justify-center ml-2">

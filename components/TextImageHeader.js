@@ -72,7 +72,7 @@ const TextImageHeader = ({
                                     <a
                                         className="inline-flex items-center text-white bg-gray-900/75 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
                                     >
-                                        <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-full">
+                                        <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-full">
                                             What&apos;s new?
                                         </span>
                                         <span className="ml-4 text-sm">Visit our services page</span>
@@ -93,7 +93,7 @@ const TextImageHeader = ({
                                             leaveTo="opacity-0"
                                             afterLeave={() => changeLine()}
                                         >
-                                            <span className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-indigo-600 sm:pb-5 drop-shadow-xl">
+                                            <span className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-indigo-700 to-indigo-700 sm:pb-5 drop-shadow-xl">
                                                 {hl}
                                             </span>
                                         </Transition>
@@ -115,7 +115,7 @@ const TextImageHeader = ({
                                             <div className="mt-3 sm:mt-0 sm:ml-3">
                                                 <Link href="/services" passHref>
                                                     <a
-                                                        className="text-center bg-transparent block w-full px-8 py-3 md:py-4 md:text-lg md:px-10 rounded-md shadow text-white font-medium hover:bg-gradient-to-r hover:from-indigo-500 hover:to-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-400 focus:ring-offset-gray-900 border-2 border-indigo-500 hover:border-transparent"
+                                                        className="text-center bg-transparent block w-full px-8 py-3 md:py-4 md:text-lg md:px-10 rounded-md shadow text-white font-medium hover:bg-gradient-to-r hover:from-indigo-500 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-400 focus:ring-offset-gray-900 border-2 border-indigo-500 hover:border-transparent"
                                                     >
                                                         Learn more
                                                     </a>

@@ -5,7 +5,7 @@ const RadioFrequencyCTA = () => {
     return (
         <div className="relative py-16 bg-white">
             <div className="hidden absolute top-0 inset-x-0 h-1/2 lg:block" aria-hidden="true" />
-            <div className="bg-indigo-600 lg:bg-transparent lg:px-8">
+            <div className="bg-indigo-700 lg:bg-transparent lg:px-8">
                 <div className="lg:grid lg:grid-cols-12">
                     <div className="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
                         <div className="absolute inset-x-0 h-1/2 lg:hidden" aria-hidden="true" />
@@ -21,7 +21,7 @@ const RadioFrequencyCTA = () => {
                         </div>
                     </div>
 
-                    <div className="relative bg-indigo-600 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
+                    <div className="relative bg-indigo-700 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
                         <div className="hidden absolute inset-0 overflow-hidden rounded-3xl lg:block" aria-hidden="true">
                             <svg
                                 className="absolute bottom-full left-full transform translate-y-1/3 -translate-x-1/3 xl:bottom-auto xl:top-0 xl:translate-y-0"

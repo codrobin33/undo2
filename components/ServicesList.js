@@ -41,7 +41,7 @@ const ServicesShortList = () => {
             <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8 ">
                 <svg className="hidden lg:block absolute right-full transform translate-x-2/3 translate-y-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true"><defs><pattern id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="4" height="4" className="text-gray-200" fill="currentColor"></rect></pattern></defs><rect width="404" height="784" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"></rect></svg>
                 <div>
-                    <h2 className="text-base font-semibold text-indigo-600 uppercase tracking-wide">Everything you need</h2>
+                    <h2 className="text-base font-semibold text-indigo-700 uppercase tracking-wide">Everything you need</h2>
                     <p className="mt-2 text-3xl font-extrabold text-gray-900">For great Skin</p>
                     <p className="mt-4 text-lg text-gray-500">
                         Our team is here to help you look and feel your best. Let us Undo those unwanted skin changes.
@@ -54,7 +54,7 @@ const ServicesShortList = () => {
                                 <dt>
                                     <Link href={feature.href} passHref>
                                         <a className="cursor-pointer  hover:underline">
-                                            <LinkIcon className="absolute h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                            <LinkIcon className="absolute h-6 w-6 text-indigo-700" aria-hidden="true" />
                                             <span className="ml-9 text-lg leading-6 font-medium text-gray-900">{feature.name}</span>
                                         </a>
                                     </Link>

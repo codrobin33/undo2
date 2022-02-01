@@ -189,7 +189,7 @@ export default function Header() {
                                                                             passHref
                                                                         >
                                                                             <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
-                                                                                <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                                                                <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-700" aria-hidden="true" />
                                                                                 <div className="ml-4">
                                                                                     <p className="text-base font-medium text-gray-900">{item.name}</p>
                                                                                     <p className="mt-1 text-sm text-gray-500">{item.description}</p>
@@ -247,7 +247,7 @@ export default function Header() {
                                                                             passHref
                                                                         >
                                                                             <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer">
-                                                                                <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                                                                <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-700" aria-hidden="true" />
                                                                                 <div className="ml-4">
                                                                                     <p className="text-base font-medium text-gray-900">{item.name}</p>
                                                                                     <p className="mt-1 text-sm text-gray-500">{item.description}</p>
@@ -322,7 +322,7 @@ export default function Header() {
                                                             passHref
                                                         >
                                                             <a className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50 cursor-pointer">
-                                                                <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                                                                <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-700" aria-hidden="true" />
                                                                 <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                                                             </a>
                                                         </Link>
@@ -342,7 +342,7 @@ export default function Header() {
                                                     </Link>
                                                 ))}
                                             </div>
-                                            <div className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+                                            <div className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-700 hover:bg-indigo-800">
                                                 <Link
                                                     href="/"
                                                 >

@@ -52,7 +52,7 @@ const MainHero = () => {
                                     leaveTo="opacity-0"
                                     afterLeave={() => changeLine()}
                                 >
-                                    <span className="block text-indigo-600 xl:inline">{hl}</span>
+                                    <span className="block text-indigo-700 xl:inline">{hl}</span>
                                 </Transition>
                             ))}
                         </h1>
@@ -66,7 +66,7 @@ const MainHero = () => {
                             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                                 <Link href="/services" passHref>
                                     <a
-                                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
+                                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
                                     >
                                         Learn more
                                     </a>

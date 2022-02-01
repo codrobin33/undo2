@@ -36,8 +36,8 @@ const TimelyBookButton = ({ size = 'base', reversed = false, ...props }) => {
             <a
                 className={classNames(
                     `undo-link w-full flex items-center justify-center ${cssSize} border-2 border-transparent text-base font-medium rounded-md   cursor-pointer timely`,
-                    (!reversed) && 'text-white bg-indigo-600 hover:bg-indigo-700',
-                    (reversed) && 'text-indigo-600 bg-white hover:bg-gray-50'
+                    (!reversed) && 'text-white bg-indigo-700 hover:bg-indigo-800',
+                    (reversed) && 'text-indigo-700 bg-white hover:bg-gray-50'
                 )}
                 {...props}
                 onClick={event}>
