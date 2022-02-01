@@ -20,7 +20,7 @@ const Contact = () => {
         return () => {
             setIframe();
         }
-    })
+    }, [])
 
     return (
         <div className="bg-white" id="contact">
