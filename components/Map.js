@@ -1,7 +1,6 @@
 
 
 const Map = () => {
-    console.log('got here')
     return (
         <div className="relative h-96">
             <iframe
