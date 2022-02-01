@@ -80,7 +80,7 @@ const TextImageHeader = ({
                                     </a>
                                 </Link>
                                 <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-7xl drop-shadow-2xl">
-                                    <span className="block">We are the experts in</span>
+                                    <span className="block drop-shadow-xl">We are the experts in</span>
                                     {HEADLINES.map((hl, i) => (
                                         <Transition
                                             key={i}
@@ -93,17 +93,17 @@ const TextImageHeader = ({
                                             leaveTo="opacity-0"
                                             afterLeave={() => changeLine()}
                                         >
-                                            <span className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-indigo-600 sm:pb-5">
+                                            <span className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-indigo-600 sm:pb-5 drop-shadow-xl">
                                                 {hl}
                                             </span>
                                         </Transition>
                                     ))}
 
                                 </h1>
-                                <p className="text-white text-lg sm:text-2xl font-bold drop-shadow-2xl hidden md:block">
+                                <p className="text-white text-lg sm:text-2xl font-bold hidden md:block drop-shadow-xl">
                                     At Undo Skincare Center we want you to look and feel your best.  Our team of experts in skincare, tattoo removal and med spa services are here to provide your customized treatment plan
                                 </p>
-                                <p className="text-white text-lg sm:text-2xl font-bold drop-shadow-2xl block md:hidden">
+                                <p className="text-white text-lg sm:text-2xl font-bold block md:hidden drop-shadow-xl">
                                     At Undo Skincare Center we want you to look and feel your best.
                                 </p>
                                 <div className="mt-10 sm:mt-12">

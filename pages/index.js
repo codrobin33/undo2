@@ -28,7 +28,7 @@ export default function Home() {
         <Header />
 
         <div className="max-w-7xl mx-auto bg-white relative overflow-hidden">
-          <TextImageHeader reversed />
+          <TextImageHeader />
           <Transition />
 
           <div className="space-y-4">
