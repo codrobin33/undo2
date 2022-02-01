@@ -111,6 +111,7 @@ export default function Header() {
                                                         alt=""
                                                         width={85.33}
                                                         height={48}
+                                                        priority
                                                     />
                                                 ) : (
                                                     <Image
