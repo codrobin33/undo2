@@ -91,15 +91,17 @@ const TattooDeviceInfo = () => {
                 </div>
                 <div className="mt-6 prose prose-2xl text-gray-500 mx-auto">
                     <div className="w-full">
-                        <figure className="m-auto md:float-left w-1/3 md:mr-4 relative">
-                            <Image
-                                className="w-full rounded-lg"
-                                src="/img/piqo.jpg"
-                                alt=""
-                                width={285}
-                                height={645}
+                        <figure className="md:float-left w-full md:w-1/3 md:mr-4 relative">
+                            <div className="flex justify-center">
+                                <Image
+                                    className="w-full rounded-lg"
+                                    src="/img/piqo.jpg"
+                                    alt=""
+                                    width={285}
+                                    height={645}
 
-                            />
+                                />
+                            </div>
                         </figure>
                         <h3>Meet the technology</h3>
                         <p className="text-xl leading-8">
@@ -118,7 +120,7 @@ const TattooDeviceInfo = () => {
                     <p className="text-xl leading-8">
                         Clinical studies have shown that the optimal method for shattering pigment particles is to treat them with both Nano and Picosecond laser pulses.
                     </p>
-                    <figure className="relative">
+                    <figure className="relative w-full">
                         <Image
                             className="w-full rounded-lg"
                             src="/img/Rocks-To-Pebbles-To-Sand.png"
@@ -135,14 +137,16 @@ const TattooDeviceInfo = () => {
 
 
                     <div className="w-full relative">
-                        <figure className="m-auto md:float-right w-1/3 md:ml-2 ">
-                            <Image
-                                className="w-full h-auto rounded-lg relative"
-                                src="/img/PiQo4-Wheel.png"
-                                alt=""
-                                width={300}
-                                height={300}
-                            />
+                        <figure className="md:float-right w-full md:w-1/3 md:ml-2 ">
+                            <div className="flex justify-center">
+                                <Image
+                                    className="w-full h-auto rounded-lg relative"
+                                    src="/img/PiQo4-Wheel.png"
+                                    alt=""
+                                    width={300}
+                                    height={300}
+                                />
+                            </div>
                         </figure>
 
                         <h3>4 Wavelengths – For effective shattering of the most popular pigment/ink colors</h3>

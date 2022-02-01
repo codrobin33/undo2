@@ -14,6 +14,8 @@ import Contact from '../components/Contact';
 import BeforeAfter from '../components/BeforeAfter';
 import InfoCTA from '../components/InfoCTA';
 import SimpleLightCTA from '../components/SimpleLightCTA';
+import TextImageHeader from '../components/TextImageHeader';
+import Transition from '../components/Transition';
 
 export default function Tattoo() {
     return (
@@ -29,23 +31,32 @@ export default function Tattoo() {
                 <Banner />
                 <Header />
 
-                <div className="max-w-7xl mx-auto space-y-4 bg-white">
-                    <VideoHero />
+                <div className="max-w-7xl mx-auto bg-white">
+                    <div className="hidden md:block">
+                        <VideoHero />
+                    </div>
 
-                    <SimpleLightCTA />
+                    <div className="block md:hidden">
+                        <TextImageHeader src="/img/003.jpg" />
+                        <Transition />
+                    </div>
 
-                    <BeforeAfter />
-                    <CommonReasonsTattooRemoval />
+                    <div className="space-y-4">
+                        <SimpleLightCTA />
 
-                    <TattooImageCTA />
+                        <BeforeAfter />
+                        <CommonReasonsTattooRemoval />
+
+                        <TattooImageCTA />
 
 
-                    <TattooDeviceInfo />
-                    <TattooCTA />
-                    <TattooPricing />
-                    <InfoCTA />
+                        <TattooDeviceInfo />
+                        <TattooCTA />
+                        <TattooPricing />
+                        <InfoCTA />
 
-                    <Contact />
+                        <Contact />
+                    </div>
                     <Footer />
 
                 </div>

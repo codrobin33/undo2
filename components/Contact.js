@@ -43,12 +43,12 @@ const Contact = () => {
                             <div className="mt-7  text-gray-500 text-base">
                                 <h4 className="tracking-wide text-lg text-gray-700 font-semibold underline underline-offset-1 mb-2">Business Hours</h4>
                                 <div className="flex justify-center space-x-4">
-                                    <div className="space-y-1">
+                                    <div className="space-y-1 w-full">
                                         <p className="">Monday - 10 to 5 pm</p>
                                         <p className="">Tuesday - 10 to 7 pm</p>
                                         <p className="">Wednesday - 10 to 5 pm</p>
                                     </div>
-                                    <div className="space-y-1">
+                                    <div className="space-y-1 w-full">
                                         <p className="">Thursday - 10 to 5 pm</p>
                                         <p className="">Friday - 10 to 4 pm</p>
                                         <p className="">Saturday (1st and 3rd) - 9 to noon</p>
