@@ -1,20 +1,21 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
-//import { lazy, Suspense } from 'react';
+import { useRef } from 'react';
 
-//const MapComponent = lazy(() => import('./Map'));
+import MapComponent from '../components/Map';
+import useOnScreen from '../hooks/shared.hook';
 
 const Contact = () => {
+    const ref = useRef();
+    const isVisible = useOnScreen(ref);
 
     return (
-        <div className="bg-white" id="contact">
-            {/* <div suppressHydrationWarning={true}>
-                {process.browser &&
-                    <Suspense fallback={<>loading...</>}>
-                        <MapComponent />
-                    </Suspense>
-                }
-            </div> */}
+        <div className="bg-white" id="contact" ref={ref}>
+            <div>
+                {isVisible && (
+                    <MapComponent />
+                )}
+            </div>
 
             <div className=" py-16 px-4 sm:px-6 lg:px-8">
                 <div className="md:max-w-none md:grid md:grid-cols-2 md:gap-8 text-center">
