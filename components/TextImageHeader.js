@@ -21,7 +21,7 @@ function classNames(...classes) {
 }
 
 const TextImageHeader = ({
-    src = '/img/smile.jpg',
+    src = '/img/light.jpg',
     reversed = false
 }) => {
     const [line, setLine] = useState(0);
