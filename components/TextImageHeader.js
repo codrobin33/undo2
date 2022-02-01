@@ -93,7 +93,7 @@ const TextImageHeader = ({
                                             leaveTo="opacity-0"
                                             afterLeave={() => changeLine()}
                                         >
-                                            <span className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-indigo-500 sm:pb-5 drop-shadow-xl">
+                                            <span className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-600 sm:pb-5 drop-shadow-xl">
                                                 {hl}
                                             </span>
                                         </Transition>
