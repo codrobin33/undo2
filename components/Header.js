@@ -93,7 +93,7 @@ export default function Header() {
             <div className="absolute w-full">
                 <Popover as="header" className={classNames(
                     "sticky top-0 z-40 w-full  flex-none transition-colors duration-300 lg:z-50 lg:border-b lg:border-gray-900/10 border-gray-50/[0.06] md:pb-4",
-                    !scrollTop ? 'bg-white backdrop-blur' : 'border-none bg-gradient-to-b from-black/50'
+                    !scrollTop ? 'bg-white backdrop-blur' : 'border-none '
                 )}>
                     {({ open }) => (
                         <>

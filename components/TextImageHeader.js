@@ -21,7 +21,7 @@ function classNames(...classes) {
 }
 
 const TextImageHeader = ({
-    src = '/img/light.jpg',
+    src = '/img/smile2.jpg',
     reversed = false
 }) => {
     const [line, setLine] = useState(0);
@@ -43,9 +43,9 @@ const TextImageHeader = ({
 
     return (
         <div className="relative">
-            <div className="bg-gray-800 pt-24 lg:pt-24 lg:pb-20">
+            <div className="bg-gray-600 pt-24 lg:pt-24 lg:pb-20">
                 <div className="absolute top-0 h-full w-full overflow-hidden">
-                    <div className="relative w-full h-full bg-gray-800/10 bg-gradient-to-b from-gray-800/50 via-gray-800/20 to-gray-800 z-10" />
+                    <div className="relative w-full h-full bg-gray-600/10 bg-gradient-to-b from-gray-600/30 via-gray-400/10 to-gray-400 z-10" />
 
                     <div className="h-full w-full absolute top-0">
                         <div className="relative w-full h-full">
@@ -70,7 +70,7 @@ const TextImageHeader = ({
                             <div className="lg:py-24">
                                 <Link href={"/services"} passHref>
                                     <a
-                                        className="inline-flex items-center text-white bg-gray-900/75 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
+                                        className="inline-flex items-center text-white bg-gray-600/75 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
                                     >
                                         <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-full">
                                             What&apos;s new?
@@ -115,7 +115,7 @@ const TextImageHeader = ({
                                             <div className="mt-3 sm:mt-0 sm:ml-3">
                                                 <Link href="/services" passHref>
                                                     <a
-                                                        className="text-center bg-transparent block w-full px-8 py-3 md:py-4 md:text-lg md:px-10 rounded-md shadow text-white font-medium hover:bg-gradient-to-r hover:from-indigo-500 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-400 focus:ring-offset-gray-900 border-2 border-indigo-500 hover:border-transparent"
+                                                        className="backdrop-blur-lg text-center bg-transparent block w-full px-8 py-3 md:py-4 md:text-lg md:px-10 rounded-md shadow text-indigo-600 font-medium hover:bg-gradient-to-r hover:from-indigo-500 hover:to-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-400 focus:ring-offset-gray-900 border-2 border-indigo-500 hover:border-transparent"
                                                     >
                                                         Learn more
                                                     </a>
