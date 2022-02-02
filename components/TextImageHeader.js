@@ -52,12 +52,12 @@ const TextImageHeader = ({
                             <Image
                                 src={src}
                                 className={classNames(
-                                    "top-0 h-full w-full",
+                                    "h-full w-full",
                                     reversed && '-scale-x-100'
                                 )}
                                 layout="fill"
                                 alt="Hero"
-                                objectPosition={"100% 50%"}
+                                objectFit="cover"
                                 priority
                             />
                         </div>
