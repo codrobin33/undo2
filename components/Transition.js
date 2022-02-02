@@ -11,7 +11,7 @@ const Perks = () => {
 
                         <div className="ml-4 flex-auto flex flex-col-reverse z-10">
                             <h3 className="font-medium text-white">Customized treatment plans</h3>
-                            <p className="text-sm text-white/80">Unique for you</p>
+                            <p className="text-sm text-white/90">Unique for you</p>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ const Perks = () => {
 
                         <div className="ml-4 flex-auto flex flex-col-reverse z-10">
                             <h3 className="font-medium text-white">Advanced technology</h3>
-                            <p className="text-sm text-white/80">Ahead of the competition</p>
+                            <p className="text-sm text-white/90">Ahead of the competition</p>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const Perks = () => {
                         <TicketIcon className="flex-shrink-0 h-8 w-8 text-indigo-600 z-10" />
                         <div className="ml-4 flex-auto flex flex-col-reverse z-10">
                             <h3 className="font-medium text-white">Certificated technicians</h3>
-                            <p className="text-sm text-white/80">The proof is in the work</p>
+                            <p className="text-sm text-white/90">The proof is in the work</p>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ const ImageHeader = () => {
     return (
         <div className="relative bg-indigo-800">
             <div className="absolute inset-0">
-                <div className="relative w-full h-full bg-gray-800/10 bg-gradient-to-b from-gray-800/50 via-gray-800/20 to-gray-800 z-10" />
+                <div className="relative w-full h-full bg-gray-400/10 bg-gradient-to-b from-gray-400/30 via-gray-400/0 to-gray-400 z-10" />
 
                 <div className="h-full w-full">
                     <Image
