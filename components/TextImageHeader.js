@@ -21,7 +21,7 @@ function classNames(...classes) {
 }
 
 const TextImageHeader = ({
-    src = '/img/smile2.jpg',
+    src = '/img/sitting.jpg',
     reversed = false
 }) => {
     const [line, setLine] = useState(0);
@@ -45,7 +45,7 @@ const TextImageHeader = ({
         <div className="relative">
             <div className="bg-gray-600 pt-24 lg:pt-24 lg:pb-20">
                 <div className="absolute top-0 h-full w-full overflow-hidden">
-                    <div className="relative w-full h-full bg-gray-600/10 bg-gradient-to-b from-gray-600/30 via-gray-400/10 to-gray-400 z-10" />
+                    <div className="relative w-full h-full bg-gray-600/10 bg-gradient-to-b from-gray-600/10 via-gray-400/10 to-gray-400 z-10" />
 
                     <div className="h-full w-full absolute top-0">
                         <div className="relative w-full h-full">
