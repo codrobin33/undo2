@@ -23,7 +23,7 @@ const Contact = () => {
                         <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Call us</h2>
                         <div className="mt-3">
                             <p className="text-lg text-gray-500">
-                                Take the next step and begin removing your unwanted ink! Call us today and schedule your FREE consultation.
+                                Take the next step and call us today to schedule your FREE consultation.
                             </p>
                         </div>
                         <div className="mt-9">
@@ -63,7 +63,7 @@ const Contact = () => {
                         <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">Find us</h2>
                         <div className="mt-3">
                             <p className="text-lg text-gray-500">
-                                At Undo Skincare Center, we use only the best and most advanced technology to make the tattoo removal process easy and painless.
+                                At Undo Skincare Center, we use only the best and most advanced technology to make treatments easy and painless.
                             </p>
                         </div>
                         <div className="mt-9">
