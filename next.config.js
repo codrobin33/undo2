@@ -5,10 +5,10 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
     // Use the CDN in production and localhost for development.
-    assetPrefix: isProd ? 'https://codrobin33.github.io/undo2' : '',
-    basePath: isProd ? '/undo2' : '',
+    assetPrefix: isProd ? '/' : '',
+    basePath: isProd ? '/' : '',
     env: {
-        img_url: isProd ? '/undo2/' : ''
+        img_url: isProd ? '/' : ''
     },
     trailingSlash: isProd ? true : false,
     images: {

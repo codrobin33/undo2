@@ -26,7 +26,7 @@ const Imports = ({
     <meta name="twitter:image" content={`https://codrobin33.github.io/undo2/img/office.jpg`} />
 
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="icon" href={`${process.env.img_url}/favicon.ico`} />
+    <link rel="icon" href={`${process.env.img_url}favicon.ico`} />
     <script id="timelyScript" src="https://book.gettimely.com/widget/book-button-v1.5.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106878463-1"></script>
     <script dangerouslySetInnerHTML={{
