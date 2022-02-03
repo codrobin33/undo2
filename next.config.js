@@ -5,10 +5,8 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
     // Use the CDN in production and localhost for development.
-    env: {
-        img_url: ''
-    },
-    trailingSlash: false,
+    assetPrefix: isProd ? 'https://undo.today/' : '',
+    trailingSlash: isProd ? true : false,
     images: {
         loader: 'imgix',
         path: 'https://undo.imgix.net'
