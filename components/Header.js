@@ -69,7 +69,7 @@ function classNames(...classes) {
 export default function Header() {
 
     const [scrollTop, setScrollTop] = useState(true);
-    const [scrolling, setScrolling] = useState(false);
+    const [, setScrolling] = useState(false);
 
     useEffect(() => {
         function onScroll() {

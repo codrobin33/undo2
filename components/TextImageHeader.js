@@ -43,9 +43,11 @@ const TextImageHeader = ({
 
     return (
         <div className="relative">
-            <div className="bg-gray-600 pt-24 lg:pt-24 lg:pb-20">
+            <div className="bg-gray-400 pt-24 lg:pt-24 lg:pb-20">
                 <div className="absolute top-0 h-full w-full overflow-hidden">
-                    <div className="relative w-full h-full bg-gray-600/10 bg-gradient-to-b from-gray-600/30 via-gray-400/10 to-gray-400 z-10" />
+                    <div className="absolute top-0 w-full h-full bg-gradient-to-b from-gray-500/90 via-gray-300/0 z-10" />
+
+                    <div className="absolute bottom-0 w-full h-1/3 header-gradient z-10" />
 
                     <div className="h-full w-full absolute top-0">
                         <div className="relative w-full h-full">
@@ -58,6 +60,7 @@ const TextImageHeader = ({
                                 layout="fill"
                                 alt="Hero"
                                 objectFit="cover"
+                                objectPosition={'100% 50%'}
                                 priority
                             />
                         </div>
@@ -100,10 +103,10 @@ const TextImageHeader = ({
                                     ))}
 
                                 </h1>
-                                <p className="text-white text-lg sm:text-2xl font-bold hidden md:block drop-shadow-xl">
+                                <p className="text-white text-lg sm:text-2xl font-bold hidden md:block drop-shadow-lg shadow-indigo-600">
                                     At Undo Skincare Center we want you to look and feel your best.  Our team of experts in skincare, tattoo removal and med spa services are here to provide your customized treatment plan
                                 </p>
-                                <p className="text-white text-lg sm:text-2xl font-bold block md:hidden drop-shadow-xl">
+                                <p className="text-white text-lg sm:text-2xl font-bold block md:hidden drop-shadow-lg shadow-indigo-600">
                                     At Undo Skincare Center we want you to look and feel your best.
                                 </p>
                                 <div className="mt-10 sm:mt-12">

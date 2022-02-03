@@ -24,7 +24,7 @@ export default function SkinCareProducts() {
                 <Header />
 
                 <div className="max-w-7xl mx-auto bg-white relative">
-                    <TextImageHeader src="img/products.jpg" />
+                    <TextImageHeader src="img/flowers.jpg" />
                     <Transition />
 
                     <div className="space-y-4 relative">

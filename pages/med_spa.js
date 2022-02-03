@@ -21,7 +21,7 @@ export default function MedSpa() {
                 <Header />
 
                 <div className="max-w-7xl mx-auto bg-white">
-                    <TextImageHeader src="img/spa.jpg" />
+                    <TextImageHeader src="img/lum_smile2.jpg" />
                     <Transition />
 
                     <div className="space-y-4">

@@ -63,3 +63,8 @@ a {
 .prose-indigo a.undo-link {
   color: white;
 }
+
+.header-gradient {
+  background: rgb(156,163,175);
+  background: linear-gradient(0deg, rgba(156,163,175,1) 0%, rgba(156,163,175,1) 0%, rgba(156,163,175,0) 42%);
+}

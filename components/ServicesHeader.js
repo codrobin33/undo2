@@ -3,10 +3,12 @@ import Image from "next/image";
 /* This example requires Tailwind CSS v2.0+ */
 const ServicesHeader = () => {
     return (
-        <div className="relative bg-indigo-800">
+        <div className="relative bg-gray-400">
             <div className="pt-24 lg:pb-20">
                 <div className="absolute top-0 w-full h-full">
-                    <div className="relative w-full h-full bg-gray-800/10 bg-gradient-to-b from-gray-400/30 via-gray-400/0 to-gray-400 z-10" />
+                    <div className="relative w-full h-full bg-gray-800/10 bg-gradient-to-b from-gray-600/40 via-gray-400/0 z-10" />
+
+                    <div className="absolute bottom-0 w-full h-1/3 header-gradient z-10" />
 
                     <div className="h-full w-full">
                         <Image
