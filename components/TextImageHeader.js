@@ -79,7 +79,7 @@ const TextImageHeader = ({
                                             What&apos;s new?
                                         </span>
                                         <span className="ml-4 text-sm">Visit our services page</span>
-                                        <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
+                                        <ChevronRightIcon className="ml-2 w-5 h-5 text-white" aria-hidden="true" />
                                     </a>
                                 </Link>
                                 <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-7xl drop-shadow-2xl">
@@ -103,13 +103,15 @@ const TextImageHeader = ({
                                     ))}
 
                                 </h1>
-                                <p className="text-white text-lg sm:text-2xl font-bold hidden md:block drop-shadow-lg shadow-indigo-600">
-                                    At Undo Skincare Center we want you to look and feel your best.  Our team of experts in skincare, tattoo removal and med spa services are here to provide your customized treatment plan
-                                </p>
-                                <p className="text-white text-lg sm:text-2xl font-bold block md:hidden drop-shadow-lg shadow-indigo-600">
-                                    At Undo Skincare Center we want you to look and feel your best.
-                                </p>
-                                <div className="mt-10 sm:mt-12">
+                                <div className="backdrop-blur-sm backdrop-contrast-50 backdrop-opacity-75 p-4 mt-4">
+                                    <p className="text-white text-lg sm:text-2xl font-bold hidden md:block drop-shadow-lg shadow-indigo-600">
+                                        At Undo Skincare Center we want you to look and feel your best.  Our team of experts in skincare, tattoo removal and med spa services are here to provide your customized treatment plan.
+                                    </p>
+                                    <p className="text-slate-700 text-lg sm:text-2xl font-bold block md:hidden drop-shadow-lg shadow-indigo-600">
+                                        At Undo Skincare Center we want you to look and feel your best.
+                                    </p>
+                                </div>
+                                <div className="mt-8">
                                     <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
                                         <div className="sm:flex">
                                             <div className="">

@@ -7,32 +7,32 @@ const Perks = () => {
             <div className="max-w-5xl mx-auto divide-y divide-gray-200 lg:py-8 lg:flex lg:justify-center lg:divide-y-0 ">
                 <div className="py-8 lg:py-0 lg:w-1/3 lg:flex-none">
                     <div className="max-w-xs mx-auto px-4 flex items-center lg:max-w-none lg:px-8">
-                        <UserIcon className="flex-shrink-0 h-8 w-8 text-indigo-600 z-10" />
+                        <UserIcon className="flex-shrink-0 h-8 w-8 text-slate-700 z-10" />
 
                         <div className="ml-4 flex-auto flex flex-col-reverse z-10">
-                            <h3 className="font-medium text-white">Customized treatment plans</h3>
-                            <p className="text-sm text-white/90">Unique for you</p>
+                            <h3 className="font-medium text-slate-700">Customized treatment plans</h3>
+                            <p className="text-sm text-slate-700/90">Unique for you</p>
                         </div>
                     </div>
                 </div>
                 <div className="py-8 lg:py-0 lg:w-1/3 lg:flex-none  z-10">
                     <div className="max-w-xs mx-auto px-4 flex items-center lg:max-w-none lg:px-8">
 
-                        <TrendingUpIcon className="flex-shrink-0 h-8 w-8 text-indigo-600 z-10" />
+                        <TrendingUpIcon className="flex-shrink-0 h-8 w-8 text-slate-700 z-10" />
 
                         <div className="ml-4 flex-auto flex flex-col-reverse z-10">
-                            <h3 className="font-medium text-white">Advanced technology</h3>
-                            <p className="text-sm text-white/90">Ahead of the competition</p>
+                            <h3 className="font-medium text-slate-700">Advanced technology</h3>
+                            <p className="text-sm text-slate-700/90">Ahead of the competition</p>
                         </div>
                     </div>
                 </div>
                 <div className="py-8 lg:py-0 lg:w-1/3 lg:flex-none">
                     <div className="max-w-xs mx-auto px-4 flex items-center lg:max-w-none lg:px-8">
 
-                        <TicketIcon className="flex-shrink-0 h-8 w-8 text-indigo-600 z-10" />
+                        <TicketIcon className="flex-shrink-0 h-8 w-8 text-slate-700 z-10" />
                         <div className="ml-4 flex-auto flex flex-col-reverse z-10">
-                            <h3 className="font-medium text-white">Certificated technicians</h3>
-                            <p className="text-sm text-white/90">The proof is in the work</p>
+                            <h3 className="font-medium text-slate-700">Certificated technicians</h3>
+                            <p className="text-sm text-slate-700/90">The proof is in the work</p>
                         </div>
                     </div>
                 </div>
