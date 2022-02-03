@@ -8,7 +8,7 @@ module.exports = {
     env: {
         img_url: ''
     },
-    trailingSlash: isProd ? true : false,
+    trailingSlash: false,
     images: {
         loader: 'imgix',
         path: 'https://undo.imgix.net'
